@@ -1,0 +1,44 @@
+.loction {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto 0 auto;
+    padding: 20px 0px 20px 20px;
+    font-size: 16px;
+    color: #666;
+    box-sizing: border-box;
+    background: url(../../images/home.png) no-repeat 0px 22px;
+    background-size: 21px auto;
+}
+
+.loction span.ar {
+    padding: 0 15px 0 20px;
+}
+
+.loction span {
+    font-weight: 700;
+    font-size: 18px;
+    color: #555;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+.hotplace-contents-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto 0 auto;
+    padding: 20px 0px 20px 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.img-wrapper{
+    display: flex;
+    width: 256px;
+    height: 256px;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+}
