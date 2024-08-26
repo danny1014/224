@@ -1,0 +1,129 @@
+*{
+  margin: 15px 0;
+  padding: 0;
+  background-color: rgb(231, 255, 230);
+}
+
+main {
+  display: flex;
+  gap: 30px;
+  justify-content: center; 
+  align-items: center; 
+}
+
+/* 메인 왼쪽 박스 */
+.my_leftbox{
+  width: 350px;
+  height: 700px;
+}
+
+/* 메인 오른쪽 박스 */
+.my_rightbox{
+  width: 650px;
+  height: 700px;
+}
+
+/* 메인 왼쪽 환영메세지 박스 */
+.my_hello{
+  background-color: white;
+  width: 350px;
+  height: 130px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* 환영메시지 인삿말 */
+.my_wellcome{
+  background-color: white;
+  font-size: 16px;
+  font-weight: bold;
+  color: green;
+}
+
+/* 환영메세지 닉네임 */
+.my_nickname{
+  background-color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* 목록 박스 */
+.my_category{
+  background-color: white;
+  max-width: 350px;
+  height: 70%;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+/* 구분선 */
+.my_line{
+  background-color: black;
+  height: 1px;
+  width: 95%;
+}
+
+/* 마이페이지 목록 상세 */
+.my_category_menu{
+  background-color: white;
+  font-size: 16px;
+}
+
+/* 프로필박스 */
+.my_profile{
+  background-color: white;
+  max-width: 650px;
+  height: 600px;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 내프로필 제목 */
+.my_profile_title{
+  background-color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.my_profile_category{
+  background-color: white;
+  display: flex;
+}
+
+.my_profile_menu{ 
+  background-color: white;
+  width: 100px;
+  height: 20px;
+  align-content: center;
+  font-size: 16px;
+}
+
+.my_profile_value{
+  background-color: white;
+  width: 350px;
+  height: 20px;
+  align-content: center;
+  font-size: 16px;
+}
+
+.my_profile_center{
+  background-color: white;
+}
+
+.my_button{
+  background-color: #2BCF81;
+  color: white;
+  border-radius: 15px;
+  border: 0px;
+  cursor: pointer;
+  width: 330px;
+  height: 50px;
+  font-size: 16px;
+}
+
