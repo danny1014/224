@@ -1,0 +1,17 @@
+.main-section-first {
+  /* border: 1px solid red; */
+  width: 1060px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.main-station img {
+  width: 250px;
+  height: 330px;
+  margin: 10px;
+}
+
+#main-station-btn {
+  width: 80px;
+  height: 40px;
+}
