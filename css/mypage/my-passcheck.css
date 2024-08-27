@@ -1,7 +1,6 @@
 *{
   margin: 15px 0;
   padding: 0;
-  background-color: rgb(231, 255, 230);
 }
 
 main {
@@ -9,6 +8,7 @@ main {
   gap: 30px;
   justify-content: center; 
   align-items: center; 
+  background-color: rgb(231, 255, 230);
 }
 
 /* 메인 왼쪽 박스 */
@@ -159,8 +159,11 @@ main {
   border-radius: 15px;
   border: 0px;
   cursor: pointer;
-  width: 330px;
+  width: 120px;
   height: 50px;
   font-size: 16px;
 }
 
+a{
+  text-decoration: none;
+};

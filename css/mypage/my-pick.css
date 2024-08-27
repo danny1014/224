@@ -221,3 +221,7 @@ li::marker {
 li::marker {
   content: '';
 }
+
+a{
+  text-decoration: none;
+};
