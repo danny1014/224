@@ -1,17 +1,17 @@
 /* 페이지 메인 파트 */
-.notice_nwrite_all {
+.notice-nwrite-all {
   width: 1060px;
   margin: 0 auto;
 }
 
 /* 메인 상단부 '공지사항' 파트 컨테이너 */
-.notice_nwrite_top {
+.notice-nwrite-top {
   width: 100%;
   padding: 50px 0px;
 }
 
 /* '공지사항' */
-.notice_nwrite_txt {
+.notice-nwrite-txt {
   font-weight: 700;
   font-size: 28px;
   color: rgb(51, 51, 51);
@@ -22,7 +22,7 @@
 
 
 /* 게시글 컨테이너 */
-.notice_nwrite_main {
+.notice-nwrite-main {
   margin-top: 20px;
   border-top: 2px solid rgb(51, 51, 51);
   color: rgb(51, 51, 51);
@@ -30,14 +30,14 @@
 
 
 /* 제목/작성자/작성일 컨테이너 */
-.notice_nwrite_content {
+.notice-nwrite-content {
   display: flex;
   flex-direction: row;
   border-bottom: 1px solid rgb(244, 244, 244);
 }
 
 /* 제목/작성자/작성일 */
-.notice_nwrite_tcontent {
+.notice-nwrite-tcontent {
   width: 130px;
   padding: 13px 0px 13px 20px;
   background-color: rgb(247, 245, 248);
@@ -47,19 +47,19 @@
 }
 
 /* 제목/작성자/작성일 상세내용 */
-.notice_nwrite_ttxt {
+.notice-nwrite-ttxt {
   padding-left: 25px;
   align-self: center;
 }
 
 /* 게시글 상세 내용 파트 */
-.notice_nwrite_maincont {
+.notice-nwrite-maincont {
   padding: 30px 10px 100px;
   border-bottom: 1px solid rgb(128, 128, 128);
 }
 
 /* '목록' 버튼 파트 컨테이너 */
-.notice_nwrite_btuall {
+.notice-nwrite-btuall {
   display: flex;
   width: 100%;
   padding: 20px 0px;
@@ -68,7 +68,7 @@
 }
 
 /* '목록' 버튼 */
-.notice_nwrite_btu {
+.notice-nwrite-btu {
   display: block;
   padding: 0px 10px;
   text-align: center;
@@ -82,12 +82,12 @@
 }
 
 /* '목록' 폰트사이즈 */
-.notice_nwrite_btuall span {
+.notice-nwrite-btuall span {
   font-size: 13px;
 }
 
 /* '목록' 폰트 두께 */
-.notice_nwrite_btu-sp {
+.notice-nwrite-btu-sp {
   display: inline-block;
   font-size: 16px;
   font-weight: 500;
