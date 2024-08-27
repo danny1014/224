@@ -7,29 +7,29 @@
   display: flex;
 }
 
-#header_img_0 img {
+#header-img-0 img {
   width: 90px;
 }
 
-#header_img_0 {
+#header-img-0 {
   margin-left: 50px;
   transform: translate(0, 20px);
 }
 
-#header_img_1 img {
+#header-img-1 img {
   width: 70px;
 }
 
-#header_img_1 {
+#header-img-1 {
   transform: translate(140px, -45px);
 }
 
-.header_search img{
+.header-search img{
   width: 20px;
   transform: translate(10px, 10px);
 }
 
-#header_search_frame {
+#header-search-frame {
   width: 400px;
   height: 40px;
   background-color: rgb(240, 240, 240);
@@ -45,12 +45,12 @@
   border-radius: 10px;
 } */
 
-#header_weather img {
+#header-weather img {
   width: 80px;
   transform: translate(100px, 30px);
 }
 
-#header_login_join_btn {
+#header-login-join-btn {
   background-color: #2BCF81;
   width: 140px;
   height: 35px;
@@ -60,7 +60,7 @@
   transform: translate(200px, 25px);
 }
 
-#header_login_join_btn h5 {
+#header-login-join-btn h5 {
   font-size: 12px;
   margin-top: 10px;
   font-weight: 500;
