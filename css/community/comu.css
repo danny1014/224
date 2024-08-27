@@ -6,7 +6,7 @@
   flex-direction: row-reverse;
 }
 
-.area_line {
+.area-line {
   height: 1px;
   margin: 0;
   border: none;
@@ -20,14 +20,14 @@
   width: 900px;
 }
 
-#header_box {
+#header-box {
   border: 1px solid #C0C0C0;
   margin-bottom: 10px;
   text-align: left;
   width: 900px;
 }
 
-#header_box .bbs_title {
+#header-box .bbs-title {
   padding: 0 10px;
   height: 29px;
   background: linear-gradient(#faf9f9, #f3f2f2);
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
-#header_box .desc {
+#header-box .desc {
   display: inline-block;
   padding: 10px 5px 10px 12px;
   border-top: 1px solid #C1C1C1;
@@ -132,7 +132,7 @@ ul {
   margin:0;
 }
 
-.navcontainer .write_btn {
+.navcontainer .write-btn {
   border: 1px solid #4a86b6;
   border-radius: 4px;
   display: flex;
@@ -147,11 +147,11 @@ ul {
   text-decoration: none;
 }
 
-.title_bg.bbs, .title_bg.bbs_new1 {
+.title-bg.bbs, .title-bg.bbs-new1 {
   table-layout: fixed;
 }
 
-.title_bg {
+.title-bg {
   background-color: #f9f9f9;
 }
 
@@ -182,23 +182,23 @@ ul {
   justify-content: center;
 }
 
-#command_bg3 .info_bg, #revolution_main_table.pic_bg {
+#command-bg3 .info-bg, #revolution-main-table.pic-bg {
   position: relative;
 }
 
-.info_bg2 .bottom-list {
+.info-bg2 .bottom-list {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 10px;
 }
 
-.info_bg2 .bottom-list .prev {
+.info-bg2 .bottom-list .prev {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
 
-.info_bg2 .bottom-list a {
+.info-bg2 .bottom-list a {
   color: #505050;
   border: 1px solid #ccc;
   box-sizing: border-box;
@@ -212,13 +212,13 @@ ul {
   justify-content: space-around;
 }
 
-.info_bg2 .bottom-list a.on {
+.info-bg2 .bottom-list a.on {
   font-weight: bold;
   color: #ff7864;
   background: #fff6f4;
 }
 
-.info_bg2 .bottom-list .prev {
+.info-bg2 .bottom-list .prev {
   content: "";
   background: url('../../images/prev.png') no-repeat center;
   display: inline-block;
@@ -228,7 +228,7 @@ ul {
   
 }
 
-.info_bg2 .bottom-list .next {
+.info-bg2 .bottom-list .next {
   content: "";
   background: url('../../images/next.png') no-repeat center;
   display: inline-block;
