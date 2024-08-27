@@ -14,14 +14,14 @@
   width: 900px;
 }
 
-#header_box {
+#header-box {
   border: 1px solid #C0C0C0;
   margin-bottom: 10px;
   text-align: left;
   width: 900px;
 }
 
-#header_box .bbs_title {
+#header-box .bbs-title {
   padding: 0 10px;
   height: 29px;
   background: linear-gradient(#faf9f9, #f3f2f2);
@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
-#header_box .desc {
+#header-box .desc {
   display: inline-block;
   padding: 10px 5px 10px 12px;
   border-top: 1px solid #C1C1C1;
@@ -187,50 +187,50 @@ tr {
 
 /* 승민 게시글 버튼 */
 
-.comu_div_flex_content{
+.comu-div-flex-content{
   width: 100%;
   display: flex;
   justify-content: space-between;
 
 }
 
-.comu_div_flex_box{
+.comu-div-flex-box{
   width: 25%;
   display: flex;
   justify-content: space-between;
   
 }
 
-.com_div_flex_box_div{
+.com-div-flex-box-div{
   position: relative;
   bottom: 80px;
 }
 
-#form_commentInfo{
+#form-commentInfo{
   width: 100%;
 }
 
-#comment_count{
+#comment-count{
   margin-bottom: 10px; 
 }
 
-#comu_text_red{
+#comu-text-red{
   color: red;
 }
 
-.comu_inputbox_but{
+.comu-inputbox-but{
   width: 90%;
   display: flex;
   justify-content: space-between;
 
 }
 
-#comment_input{
+#comment-input{
   width: 85%;
   height: 50px;
 }
 
-#comu_submit{
+#comu-submit{
   background-color: #0AC200;
   width: 100px;
   height: 40px;
@@ -240,14 +240,14 @@ tr {
 }
 
 
-.comu_member_rewrite_contents{
+.comu-member-rewrite-contents{
   /* border: 1px solid black; */
   display: flex;
   width: 100%;
 
 }
 
-.comu_member_rewrite_contents_button{
+.comu-member-rewrite-contents-button{
   background-color: #0AC200;
   width: 60px;
   height: 27px;
@@ -258,17 +258,17 @@ tr {
 }
 
 
-.comu_comment_inputbox_but{
+.comu-comment-inputbox-but{
   display: flex;
   /* height: 50px; */
 }
 
-.comu_comment_rewrite_input{
+.comu-comment-rewrite-input{
   width: 300px;
   /* height: 50px; */
 }
 
-.comu_comment_rewrite_submit{
+.comu-comment-rewrite-submit{
   background-color: #0AC200;
   width: 100px;
   height: 30px;
