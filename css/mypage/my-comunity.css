@@ -1,0 +1,104 @@
+*{
+  margin: 15px 0;
+  padding: 0;
+  background-color: rgb(231, 255, 230);
+}
+
+main {
+  display: flex;
+  gap: 30px;
+  justify-content: center; 
+  align-items: center; 
+}
+
+/* 메인 왼쪽 박스 */
+.my-leftbox{
+  width: 350px;
+  height: 700px;
+}
+
+/* 메인 오른쪽 박스 */
+.my-rightbox{
+  width: 650px;
+  height: 700px;
+}
+
+/* 메인 왼쪽 환영메세지 박스 */
+.my-hello{
+  background-color: white;
+  width: 350px;
+  height: 130px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* 환영메시지 인삿말 */
+.my-wellcome{
+  background-color: white;
+  font-size: 16px;
+  font-weight: bold;
+  color: green;
+}
+
+/* 환영메세지 닉네임 */
+.my-nickname{
+  background-color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* 목록 박스 */
+.my-category{
+  background-color: white;
+  max-width: 350px;
+  height: 70%;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+/* 구분선 */
+.my-line{
+  background-color: black;
+  height: 1px;
+  width: 95%;
+}
+
+/* 마이페이지 목록 상세 */
+.my-category-menu{
+  background-color: white;
+  font-size: 16px;
+}
+
+/* ============================================= */
+
+
+/* 게시글 확인 박스 */
+.my-comunity{
+  background-color: white;
+  max-width: 650px;
+  height: 600px;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 제목 : 게시글 조회 */
+.my-comunity-title{
+  background-color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* 커뮤니티 표시 영역 */
+.my-comunity-center{
+  background-color: skyblue;
+  width: 600px;
+  height: 550px;
+}
+
+
+
