@@ -11,7 +11,7 @@
   min-height: 100vh;
   left: 100px;
 }
-.notice_nmain_all {
+.notice-nmain-all {
   position: relative;
   min-width: 1060px;
 }
@@ -23,12 +23,12 @@ a {
 }
 
 /* 게시판 구역 너비 */
-.notice_nmain_main {
+.notice-nmain-main {
   width: 820px;
 }
 
 /* 상단 '공지사항' 파트 스타일 적용 */
-.notice_nmain_toptxt {
+.notice-nmain-toptxt {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -44,7 +44,7 @@ a {
 }
 
 /* 상단 '공지사항' 컨테이너 내부 텍스트 스타일 적용 */
-.notice_nmain_toptxt_in {
+.notice-nmain-toptxt-in {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -59,7 +59,7 @@ a {
 }
 
 /* 상단 '공지사항' */
-.notice_nmain_toptxt_txt {
+.notice-nmain-toptxt-txt {
   font-weight: 500;
   font-size: 24px;
   color: rgb(51, 51, 51);
@@ -68,7 +68,7 @@ a {
 }
 
 /* 분류, 제목, 작성자, 작성일 컨테이너 */
-.notice_nmain_container {
+.notice-nmain-container {
   display: flex;
   width: 100%;
   padding: 20px 0px;
@@ -77,7 +77,7 @@ a {
 }
 
 /* 분류 */
-.notice_nmain_container_cate {
+.notice-nmain-container-cate {
   flex-basis: 50px;
   text-align: center;
   line-height: 20px;
@@ -87,7 +87,7 @@ a {
 }
 
 /* 제목 */
-.notice_nmain_container_title {
+.notice-nmain-container-title {
   -webkit-box-flex: 1;
   flex-grow: 1;
   text-align: center;
@@ -97,7 +97,7 @@ a {
 }
 
 /* 작성자, 작성일 */
-.notice_nmain_container_audate {
+.notice-nmain-container-audate {
   flex-basis: 100px;
   text-align: center;
   line-height: 20px;
@@ -106,7 +106,7 @@ a {
 }
 
 /* 게시글 목록 ul태그 */
-.notice_nmain_ul_all {
+.notice-nmain-ul-all {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -117,14 +117,14 @@ a {
 }
 
 /* 게시글 목록 ul>li 태그 내부 스타일 */
-.notice_nmain_ul_main {
+.notice-nmain-ul-main {
   display: flex;
   flex-direction: row;
   border-bottom: 1px solid rgb(244, 244, 244);
 }
 
 /* 게시글 안내 표기된 곳 */
-.notice_nmain_ul_cate {
+.notice-nmain-ul-cate {
   text-align: center;
   padding: 20px 0px;
   color: rgb(76, 76, 76);
@@ -133,7 +133,7 @@ a {
 }
 
 /* 제목 표기된 곳 */
-.notice_nmain_ul_title {
+.notice-nmain-ul-title {
   padding: 20px 0px 20px 20px;
   color: rgb(76, 76, 76);
   flex: 1 1 0%;
@@ -141,7 +141,7 @@ a {
 }
 
 /* 작성자 표기된 곳 */
-.notice_nmain_ul_author {
+.notice-nmain-ul-author {
   text-align: center;
   padding: 20px 0px;
   color: rgb(76, 76, 76);
@@ -149,26 +149,26 @@ a {
 }
 
 /* 작성날짜 표기된 곳 */
-.notice_nmain_ul_date {
+.notice-nmain-ul-date {
   text-align: center;
   padding: 20px 0px;
   flex-basis: 100px;
   color: rgb(153, 153, 153);
 }
 
-.info_bg2 .bottom-list {
+.info-bg2 .bottom-list {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 10px;
 }
 
-.info_bg2 .bottom-list .prev {
+.info-bg2 .bottom-list .prev {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
 
-.info_bg2 .bottom-list a {
+.info-bg2 .bottom-list a {
   color: #505050;
   border: 1px solid #ccc;
   box-sizing: border-box;
@@ -181,13 +181,13 @@ a {
   justify-content: space-around;
 }
 
-.info_bg2 .bottom-list a.on {
+.info-bg2 .bottom-list a.on {
   font-weight: bold;
   color: #ff7864;
   background: #fff6f4;
 }
 
-.info_bg2 .bottom-list .prev {
+.info-bg2 .bottom-list .prev {
   content: '';
   background: url('../../images/prev.png') no-repeat center;
   display: inline-block;
@@ -196,7 +196,7 @@ a {
   height: 10px;
 }
 
-.info_bg2 .bottom-list .next {
+.info-bg2 .bottom-list .next {
   content: '';
   background: url('../../images/next.png') no-repeat center;
   display: inline-block;

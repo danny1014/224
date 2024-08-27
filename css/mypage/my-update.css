@@ -12,19 +12,19 @@ main {
 }
 
 /* 메인 왼쪽 박스 */
-.my_leftbox{
+.my-leftbox{
   width: 350px;
   height: 700px;
 }
 
 /* 메인 오른쪽 박스 */
-.my_rightbox{
+.my-rightbox{
   width: 650px;
   height: 700px;
 }
 
 /* 메인 왼쪽 환영메세지 박스 */
-.my_hello{
+.my-hello{
   background-color: white;
   width: 350px;
   height: 130px;
@@ -36,7 +36,7 @@ main {
 }
 
 /* 환영메시지 인삿말 */
-.my_wellcome{
+.my-wellcome{
   background-color: white;
   font-size: 16px;
   font-weight: bold;
@@ -44,14 +44,14 @@ main {
 }
 
 /* 환영메세지 닉네임 */
-.my_nickname{
+.my-nickname{
   background-color: white;
   font-size: 16px;
   font-weight: bold;
 }
 
 /* 목록 박스 */
-.my_category{
+.my-category{
   background-color: white;
   max-width: 350px;
   height: 70%;
@@ -60,23 +60,22 @@ main {
 }
 
 /* 구분선 */
-.my_line{
-  background-color: black;
-  height: 1px;
-  width: 95%;
-}
+  .my-line{
+    background-color: black;
+    height: 1px;
+    width: 95%;
+  }
 
 /* 마이페이지 목록 상세 */
-.my_category_menu{
+.my-category-menu{
   background-color: white;
   font-size: 16px;
 }
 
-/* ============================================= */
+/* ============================= */
 
-
-/* 비밀번호확인 박스 */
-.my_passcheck{
+/* 개인정보수정 */
+.my-update{
   background-color: white;
   max-width: 650px;
   height: 600px;
@@ -84,82 +83,64 @@ main {
   padding: 20px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
-/* 제목 : 개인 정보 수정 */
-.my_passchek_title{
+/* 개인정보수정 제목 */
+.my-update-title{
   background-color: white;
   font-size: 24px;
   font-weight: bold;
 }
 
-/* 부제목 : 비밀번호확인 */
-.my_passchek_subtitle{
-  background-color: white;
-  font-size: 24px;
-  font-weight: bold;
-  color: gray;
-}
-
-/* 비밀번호확인 안내메세지 */
-.my_passchek_title_info{
-  background-color: white;
-  font-size: 16px;
-  color: gray;
-}
-
-/* 비밀번호 확인 가운데 영역 */
-.my_passchek_center{
-  background-color: white;
+.my-update-center{
+  background-color: skyblue;
+  width: 95%;
+  height: 95%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0;
 }
 
-.my_passchek_category{
+.my-update-menu{
   background-color: white;
+  margin: 0px;
+  width: 400px;
+  height: 30px;
   display: flex;
   align-items: center;
+  gap: 5px;
 }
 
-/* id입력 input박스 */
-.my_input_id{
+.my-update-value{
   background-color: white;
-  width: 280px;
-  height: 50px;
-  border-radius: 15px;
-  border: 1px solid black;
+  width: 80px;
+  height: 25px;
 }
 
-/* password입력 input박스 */
-.my_input_password{
+.my-update-input{
   background-color: white;
-  width: 280px;
-  height: 50px;
-  border-radius: 15px;
-  border: 1px solid black;
+  width: 200px;
+  height: 25px;
 }
 
-.my_passcheck_menu{ 
+.my-update-value-check{
   background-color: white;
   width: 100px;
-  height: 20px;
-  align-content: center;
-  font-size: 16px;
+  height: 25px;
 }
 
 
 
-
-
-.my_button{
+/* 개인정보수정완료버튼 */
+.my-update-button{
   background-color: #2BCF81;
   color: white;
   border-radius: 15px;
-  border: 0px;
+  border: none;
   cursor: pointer;
-  width: 330px;
-  height: 50px;
+  width: 180px;
+  height: 40px;
   font-size: 16px;
 }
-
