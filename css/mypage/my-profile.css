@@ -12,19 +12,19 @@ main {
 }
 
 /* 메인 왼쪽 박스 */
-.my_leftbox{
+.my-leftbox{
   width: 350px;
   height: 700px;
 }
 
 /* 메인 오른쪽 박스 */
-.my_rightbox{
+.my-rightbox{
   width: 650px;
   height: 700px;
 }
 
 /* 메인 왼쪽 환영메세지 박스 */
-.my_hello{
+.my-hello{
   background-color: white;
   width: 350px;
   height: 130px;
@@ -36,7 +36,7 @@ main {
 }
 
 /* 환영메시지 인삿말 */
-.my_wellcome{
+.my-wellcome{
   background-color: white;
   font-size: 16px;
   font-weight: bold;
@@ -44,14 +44,14 @@ main {
 }
 
 /* 환영메세지 닉네임 */
-.my_nickname{
+.my-nickname{
   background-color: white;
   font-size: 16px;
   font-weight: bold;
 }
 
 /* 목록 박스 */
-.my_category{
+.my-category{
   background-color: white;
   max-width: 350px;
   height: 70%;
@@ -60,22 +60,20 @@ main {
 }
 
 /* 구분선 */
-  .my_line{
-    background-color: black;
-    height: 1px;
-    width: 95%;
-  }
+.my-line{
+  background-color: black;
+  height: 1px;
+  width: 95%;
+}
 
 /* 마이페이지 목록 상세 */
-.my_category_menu{
+.my-category-menu{
   background-color: white;
   font-size: 16px;
 }
 
-/* ============================= */
-
-/* 회원탈퇴 */
-.my_quit{
+/* 프로필박스 */
+.my-profile{
   background-color: white;
   max-width: 650px;
   height: 600px;
@@ -86,73 +84,46 @@ main {
   align-items: center;
 }
 
-/* 회원탈퇴 제목 */
-.my_quit_title{
+/* 내프로필 제목 */
+.my-profile-title{
   background-color: white;
   font-size: 24px;
   font-weight: bold;
-  margin: 5px 0;
 }
 
-.my_quit_category{
+.my-profile-category{
   background-color: white;
   display: flex;
-  gap: 20px;
-  margin: 5px 0;
 }
 
-.my_quit_subtitle{ 
+.my-profile-menu{ 
   background-color: white;
   width: 100px;
   height: 20px;
   align-content: center;
   font-size: 16px;
-  font-weight: bold;
 }
 
-.my_quit_message{
+.my-profile-value{
   background-color: white;
   width: 350px;
-  height: auto;
+  height: 20px;
   align-content: center;
-  font-size: 13px;
-  margin: 5px 0;
+  font-size: 16px;
 }
 
-.my_quit_center{
+.my-profile-center{
   background-color: white;
-  margin: 5px 0;
 }
 
-.AgreeMsg{
-  background-color: white;
-  border: 1px solid gainsboro;
-  width: 220px;
-  height: 30px;
-  margin: 5px 0;
-}
-
-
-/* 탈퇴확인버튼 */
-.my_button_quit{
+.my-button{
   background-color: #2BCF81;
   color: white;
   border-radius: 15px;
-  border: none;
+  border: 0px;
   cursor: pointer;
-  width: 180px;
-  height: 40px;
+  width: 330px;
+  height: 50px;
   font-size: 16px;
 }
 
-/* 탈퇴취소버튼 */
-.my_button_back{
-  background-color: white;
-  color: #2BCF81;
-  border-radius: 15px;
-  border: 1px solid gainsboro;
-  cursor: pointer;
-  width: 180px;
-  height: 40px;
-  font-size: 16px;
-}
