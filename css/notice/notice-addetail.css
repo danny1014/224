@@ -1,17 +1,17 @@
 /* 페이지 메인 파트 */
-.notice_addetail_all {
+.notice-addetail-all {
   width: 1060px;
   margin: 0 auto;
 }
 
 /* 메인 상단부 '공지사항' 파트 컨테이너 */
-.notice_addetail_top {
+.notice-addetail-top {
   width: 100%;
   padding: 50px 0px;
 }
 
 /* '공지사항' */
-.notice_addetail_txt {
+.notice-addetail-txt {
   font-weight: 700;
   font-size: 28px;
   color: rgb(51, 51, 51);
@@ -21,21 +21,21 @@
 }
 
 /* 게시글 컨테이너 */
-.notice_addetail_main {
+.notice-addetail-main {
   margin-top: 20px;
   border-top: 2px solid rgb(51, 51, 51);
   color: rgb(51, 51, 51);
 }
 
 /* 제목/작성자/작성일 컨테이너 */
-.notice_addetail_content {
+.notice-addetail-content {
   display: flex;
   flex-direction: row;
   border-bottom: 1px solid rgb(244, 244, 244);
 }
 
 /* 제목/작성자/작성일 */
-.notice_addetail_tcontent {
+.notice-addetail-tcontent {
   width: 130px;
   padding: 13px 0px 13px 20px;
   background-color: rgb(247, 245, 248);
@@ -45,19 +45,19 @@
 }
 
 /* 제목/작성자/작성일 상세내용 */
-.notice_addetail_ttxt {
+.notice-addetail-ttxt {
   padding-left: 25px;
   align-self: center;
 }
 
 /* 게시글 상세 내용 파트 */
-.notice_addetail_maincont {
+.notice-addetail-maincont {
   padding: 30px 10px 100px;
   border-bottom: 1px solid rgb(128, 128, 128);
 }
 
 /* '목록' 버튼 파트 컨테이너 */
-.notice_addetail_btuall {
+.notice-addetail-btuall {
   display: flex;
   width: 100%;
   padding: 20px 0px;
@@ -66,7 +66,7 @@
 }
 
 /* '목록' 버튼 */
-.notice_addetail_btu {
+.notice-addetail-btu {
   display: block;
   padding: 0px 10px;
   text-align: center;
@@ -80,17 +80,17 @@
 }
 
 /* '목록' 폰트사이즈 */
-.notice_addetail_btuall span {
+.notice-addetail-btuall span {
   font-size: 13px;
 }
 
 /* '목록' 폰트 두께 */
-.notice_addetail_btu-sp {
+.notice-addetail-btu-sp {
   display: inline-block;
   font-size: 16px;
   font-weight: 500;
 }
-.notice_addetail_btuleft {
+.notice-addetail-btuleft {
   display: flex;
   width: 100%;
   padding: 20px 0px;
@@ -98,7 +98,7 @@
   justify-content: flex-start; /* 왼쪽 정렬로 변경 */
 }
 
-.notice_addetail_modi {
+.notice-addetail-modi {
   display: block;
   padding: 0px 10px;
   text-align: center;
@@ -111,7 +111,7 @@
   border: 0px none;
   margin-top: -80px;
 }
-.notice_addetail_del {
+.notice-addetail-del {
   display: block;
   padding: 0px 10px;
   text-align: center;
@@ -127,6 +127,6 @@
 }
 
 /* '수정/삭제' 폰트사이즈 */
-.notice_addetail_btuleft span {
+.notice-addetail-btuleft span {
   font-size: 13px;
 }
