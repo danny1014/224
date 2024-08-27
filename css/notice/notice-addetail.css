@@ -1,0 +1,132 @@
+/* 페이지 메인 파트 */
+.notice_addetail_all {
+  width: 1060px;
+  margin: 0 auto;
+}
+
+/* 메인 상단부 '공지사항' 파트 컨테이너 */
+.notice_addetail_top {
+  width: 100%;
+  padding: 50px 0px;
+}
+
+/* '공지사항' */
+.notice_addetail_txt {
+  font-weight: 700;
+  font-size: 28px;
+  color: rgb(51, 51, 51);
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: -1px;
+}
+
+/* 게시글 컨테이너 */
+.notice_addetail_main {
+  margin-top: 20px;
+  border-top: 2px solid rgb(51, 51, 51);
+  color: rgb(51, 51, 51);
+}
+
+/* 제목/작성자/작성일 컨테이너 */
+.notice_addetail_content {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgb(244, 244, 244);
+}
+
+/* 제목/작성자/작성일 */
+.notice_addetail_tcontent {
+  width: 130px;
+  padding: 13px 0px 13px 20px;
+  background-color: rgb(247, 245, 248);
+  border-top: 1px solid rgb(244, 244, 244);
+  text-align: left;
+  font-weight: 500;
+}
+
+/* 제목/작성자/작성일 상세내용 */
+.notice_addetail_ttxt {
+  padding-left: 25px;
+  align-self: center;
+}
+
+/* 게시글 상세 내용 파트 */
+.notice_addetail_maincont {
+  padding: 30px 10px 100px;
+  border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+/* '목록' 버튼 파트 컨테이너 */
+.notice_addetail_btuall {
+  display: flex;
+  width: 100%;
+  padding: 20px 0px;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+}
+
+/* '목록' 버튼 */
+.notice_addetail_btu {
+  display: block;
+  padding: 0px 10px;
+  text-align: center;
+  overflow: hidden;
+  width: 80px;
+  height: 40px;
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  background-color: #2bcf81;
+  border: 0px none;
+}
+
+/* '목록' 폰트사이즈 */
+.notice_addetail_btuall span {
+  font-size: 13px;
+}
+
+/* '목록' 폰트 두께 */
+.notice_addetail_btu-sp {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+}
+.notice_addetail_btuleft {
+  display: flex;
+  width: 100%;
+  padding: 20px 0px;
+  -webkit-box-pack: end;
+  justify-content: flex-start; /* 왼쪽 정렬로 변경 */
+}
+
+.notice_addetail_modi {
+  display: block;
+  padding: 0px 10px;
+  text-align: center;
+  overflow: hidden;
+  width: 80px;
+  height: 40px;
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  background-color: #2bcf81;
+  border: 0px none;
+  margin-top: -80px;
+}
+.notice_addetail_del {
+  display: block;
+  padding: 0px 10px;
+  text-align: center;
+  overflow: hidden;
+  width: 80px;
+  height: 40px;
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  background-color: #2bcf81;
+  border: 0px none;
+  margin-top: -120px;
+  margin-left: 90px;
+}
+
+/* '수정/삭제' 폰트사이즈 */
+.notice_addetail_btuleft span {
+  font-size: 13px;
+}
