@@ -64,6 +64,7 @@ main {
     background-color: black;
     height: 1px;
     width: 95%;
+    margin: 0;
   }
 
 /* 마이페이지 목록 상세 */

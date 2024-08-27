@@ -1,15 +1,24 @@
 *{
   margin: 15px 0;
   padding: 0;
-  background-color: rgb(231, 255, 230);
 }
 
 main {
   display: flex;
+  flex-direction: column;
   gap: 30px;
   justify-content: center; 
   align-items: center; 
+  background-color: rgb(231, 255, 230);
+  height: auto;
 }
+
+/* 전체 박스 */
+.my-pickBox{
+  display: flex;
+  gap: 20px;
+}
+
 
 /* 메인 왼쪽 박스 */
 .my-leftbox{
@@ -20,7 +29,7 @@ main {
 /* 메인 오른쪽 박스 */
 .my-rightbox{
   width: 650px;
-  height: 700px;
+  height: 1400px;
 }
 
 /* 메인 왼쪽 환영메세지 박스 */
@@ -64,6 +73,7 @@ main {
   background-color: black;
   height: 1px;
   width: 95%;
+  margin: 0;
 }
 
 /* 마이페이지 목록 상세 */
@@ -75,11 +85,11 @@ main {
 /* ============================================= */
 
 
-/* 게시글 확인 박스 */
+/* 찜목록확인 박스 */
 .my-comunity{
   background-color: white;
   max-width: 650px;
-  height: 600px;
+  height: 800px;
   border-radius: 15px;
   padding: 20px;
   display: flex;
@@ -93,12 +103,102 @@ main {
   font-weight: bold;
 }
 
-/* 커뮤니티 표시 영역 */
+/* 게시글 표시 영역 */
 .my-comunity-center{
-  background-color: skyblue;
+  background-color: white;
   width: 600px;
-  height: 550px;
+  height: 800px;
+}
+
+/* 게시글 최상단 박스 크기(제목,작성자,날짜) */
+.my-comunity-info{
+  background-color: white;
+  border-top: 2px solid black;
+  border-bottom: 1px solid gainsboro;
+  width: 580px;
+  height: 50px;
+  margin: 0;
+  display: flex;
+}
+
+/* 게시글 제목 */
+.my-comunity-info-title{
+  background-color: pink;
+  width: 350px;
+  height: 50px;
+  margin: 0;
+  text-align: center;
+}
+
+/* 게시글 작성자 */
+.my-comunity-info-author{
+  background-color: red;
+  width: 150px;
+  height: 50px;
+  margin: 0;
+}
+
+/* 게시글 작성날짜 */
+.my-comunity-info-date{
+  background-color: blue;
+  width: 150px;
+  height: 50px;
+  margin: 0;
 }
 
 
+/* 페이지네이션 */
+.info-bg2 .bottom-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
 
+.info-bg2 .bottom-list .prev {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.info-bg2 .bottom-list a {
+  color: #505050;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  width: 30px;
+  font-size: 12px;
+  height: 30px;
+  margin-right: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.info-bg2 .bottom-list a.on {
+  font-weight: bold;
+  color: #ff7864;
+  background: #fff6f4;
+}
+
+.info-bg2 .bottom-list .prev {
+  content: '';
+  background: url('../../images/prev.png') no-repeat center;
+  display: inline-block;
+  background-size: contain;
+  width: 6px;
+  height: 10px;
+}
+
+.info-bg2 .bottom-list .next {
+  content: '';
+  background: url('../../images/next.png') no-repeat center;
+  display: inline-block;
+  background-size: contain;
+  width: 6px;
+  height: 10px;
+}
+li::marker {
+  display: none;
+}
+li::marker {
+  content: '';
+}

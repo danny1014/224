@@ -1,7 +1,6 @@
 *{
   margin: 15px 0;
   padding: 0;
-  background-color: rgb(231, 255, 230);
 }
 
 main {
@@ -10,6 +9,8 @@ main {
   gap: 30px;
   justify-content: center; 
   align-items: center; 
+  background-color: rgb(231, 255, 230);
+  height: auto;
 }
 
 /* 전체 박스 */
@@ -28,7 +29,7 @@ main {
 /* 메인 오른쪽 박스 */
 .my-rightbox{
   width: 650px;
-  height: 700px;
+  height: 1400px;
 }
 
 /* 메인 왼쪽 환영메세지 박스 */
@@ -72,6 +73,7 @@ main {
   background-color: black;
   height: 1px;
   width: 95%;
+  margin: 0;
 }
 
 /* 마이페이지 목록 상세 */
@@ -87,7 +89,7 @@ main {
 .my-pick{
   background-color: white;
   max-width: 650px;
-  height: 1100px;
+  height: 1200px;
   border-radius: 15px;
   padding: 20px;
   display: flex;
@@ -132,7 +134,7 @@ main {
 /* 찜목록 상단(제목 하트) */
 .my-pick-textArea{
   background-color: white;
-  width: 190px;
+  width: 180px;
   height: 60px;
   display: flex;
   justify-content: space-between;
@@ -161,4 +163,61 @@ main {
 img{
   margin: 0;
   padding: 0;
+}
+
+
+/* 페이지네이션 */
+.info-bg2 .bottom-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.info-bg2 .bottom-list .prev {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.info-bg2 .bottom-list a {
+  color: #505050;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  width: 30px;
+  font-size: 12px;
+  height: 30px;
+  margin-right: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.info-bg2 .bottom-list a.on {
+  font-weight: bold;
+  color: #ff7864;
+  background: #fff6f4;
+}
+
+.info-bg2 .bottom-list .prev {
+  content: '';
+  background: url('../../images/prev.png') no-repeat center;
+  display: inline-block;
+  background-size: contain;
+  width: 6px;
+  height: 10px;
+}
+
+.info-bg2 .bottom-list .next {
+  content: '';
+  background: url('../../images/next.png') no-repeat center;
+  display: inline-block;
+  background-size: contain;
+  width: 6px;
+  height: 10px;
+}
+li::marker {
+  display: none;
+}
+li::marker {
+  content: '';
 }

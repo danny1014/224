@@ -5,7 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="../../css/mypage/my_quit.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="../../css/mypage/my-quit.css">
+  <link rel="stylesheet" href="../../css/modal/my-modal.css">
 </head>
 
 <body>
@@ -45,7 +47,7 @@
             1. 게시판형 서비스에 등록한 게시물은 탈퇴 후에도 남아 있습니다. 글이 남아 있는 것을 원치 않는다면 삭제 후 탈퇴하세요.
             <br>
             <br>
-            2. 회원 탈퇴 후 3개월간 재가입이 불가능합니다.
+            2. 회원 탈퇴 후 같은 이메일로 재가입이 불가능 합니다.
             <br>
             <br>
             3. 회원 탈퇴 시 신중히 진행하세요.
@@ -56,13 +58,25 @@
           </div>
           </div>
         </div>
-          <input type="text" id="userAgree" class="AgreeMsg" placeholder="동의합니다">
-          <button type="submit" class="my-button-quit">탈퇴</button>
-          <button type="submit" class="my-button-back">취소</button>
+          <input type="text" id="userAgree" class="AgreeMsg" placeholder=" 동의합니다">
+          <button type="button" class="my-button-quit" onclick="openDeleteModal()">탈퇴</button>
+          <button type="button" class="my-button-back">취소</button>
       </div>
+         <!-- 모달 HTML -->
+         <div id="my-Modal" class="my-modal">
+          <div class="my-modal-content">
+            <span class="my-close" onclick="closeDeleteModal()">&times;</span>
+            <h2>정말 탈퇴하시겠씁니까??</h2>
+            <p>확인 버튼을 클릭하면 회원탈퇴가 완료됩니다.</p>
+            <button type="button" onclick="goToPage()">확인</button>
+            <button class="my-cancel-btn" onclick="closeDeleteModal()">취소</button>
+          </div>
+        </div>
       </form>
     </div>
   </main>
 </body>
+<script src="../../js/modal/my-modal.js"></script>
+
 
 </html>
