@@ -1,7 +1,6 @@
 *{
   margin: 15px 0;
   padding: 0;
-  background-color: rgb(231, 255, 230);
 }
 
 main {
@@ -9,6 +8,13 @@ main {
   gap: 30px;
   justify-content: center; 
   align-items: center; 
+  background-color: rgb(231, 255, 230);
+}
+
+/* 전체 박스 */
+.my-passcheckBox{
+  display: flex;
+  gap: 20px;
 }
 
 /* 메인 왼쪽 박스 */
@@ -64,6 +70,7 @@ main {
   background-color: black;
   height: 1px;
   width: 95%;
+  margin: 0;
 }
 
 /* 마이페이지 목록 상세 */
@@ -158,8 +165,16 @@ main {
   border-radius: 15px;
   border: 0px;
   cursor: pointer;
-  width: 330px;
+  width: 120px;
   height: 50px;
   font-size: 16px;
 }
 
+a {
+  color: black; 
+  text-decoration: none; 
+}
+
+a:visited {
+  color: black;
+}
