@@ -111,7 +111,7 @@ main {
   align-items: center;
 }
 
-/* 찜목록 첫째줄 */
+/* 찜목록 줄마다 크기 */
 .my-pick-box{
   background-color: red;
   width: 600px;
@@ -122,11 +122,29 @@ main {
   justify-content: center;
 }
 
-/* 찜목록표시 */
-.my-pick-box1{
+/* 찜목록표시 크기 */
+.my-pick-area{
   background-color: pink;
   width: 190px;
   height: 300px;
 }
 
+/* 찜목록 상단(제목 하트) */
+.my-pick-textArea{
+  background-color: antiquewhite;
+  width: 190px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.my-pick-pictureArea{
+  background-color: yellow;
+  width: 190px;
+  height: 220px;
+  margin: 0;
+  padding: 0;
+}
 
