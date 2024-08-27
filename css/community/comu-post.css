@@ -1,0 +1,268 @@
+.wrapper {
+  position: relative;
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.contents {
+  width: 900px;
+}
+
+.container {
+  width: 900px;
+}
+
+#header_box {
+  border: 1px solid #C0C0C0;
+  margin-bottom: 10px;
+  text-align: left;
+  width: 900px;
+}
+
+#header_box .bbs_title {
+  padding: 0 10px;
+  height: 29px;
+  background: linear-gradient(#faf9f9, #f3f2f2);
+  display: flex;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+#header_box .desc {
+  display: inline-block;
+  padding: 10px 5px 10px 12px;
+  border-top: 1px solid #C1C1C1;
+  color: #606060;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+#topTitle {
+  text-align: left;
+  margin: 20px 0 0 0;
+}
+
+#topTitle h1 {
+  font-size: 20px;
+  letter-spacing: -0.5px;
+  line-height: 30px;
+}
+
+#comment {
+  color: var(--color-text6);
+  font-size: 11px;
+  font-family: 'tahoma', 'Gulim';
+  background-color: var(--color-comment-bg);
+  font-weight: normal;
+  padding: 0 4px;
+  margin-left: 5px;
+  vertical-align: text-top;
+}
+
+#topTitle .topTitle-box {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-bottom: 1px solid #ccc;
+  padding: 7px 0;
+  display: flex;
+  margin-top: 7px;
+}
+
+#topTitle .topTitle-mainbox {
+  margin-left: 7px;
+  padding: 2px 0 0 10px;
+  display: block;
+  max-width: 69%;
+}
+
+#topTitle .topTitle-mainbox li {
+  font-size: 13px;
+}
+
+#topTitle .topTitle-name strong {
+  color: var(--color-text4);
+  margin-right: 7px;
+  font-size: 14px;
+  word-break: break-all;
+}
+
+.han {
+  color: #000;
+  font-size: 13px;
+  text-decoration: none;
+  text-align: left;
+  font-weight: bold;
+}
+
+ul {
+  display: block;
+  list-style-type: none;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 10px;
+  unicode-bidi: isolate;
+  list-style-type: none;
+}
+
+table {
+  border: 0px;
+  font-size: inherit;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  unicode-bidi: isolate;
+  border-color: inherit;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  unicode-bidi: isolate;
+}
+
+.recommendArea {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+#recommend {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  border-radius: 5px;
+  font-size: 0;
+  padding: 15px 0px;
+  align-items: center;
+}
+
+#recommend .up-numb {
+  position: relative;
+  font-size: 16px;
+  color: #1970b3;
+  order: 2;
+}
+
+.up-numb {
+  height: 0px;
+}
+
+#recommend .recommend-up {
+  content: "";
+  width: 27px;
+  height: 25px;
+  background-image: url("../../images/recommend.png");
+  background-repeat: no-repeat;
+  background-position: 27px 15px;
+  top: 16px;
+}
+
+#recommend .recommend-up {
+  font-size: 12px;
+  width: 80px;
+  height: 80px;
+  font-weight: bold;
+  border-radius: 100%;
+  background-color: #2BCF81;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  position: relative;
+  padding-bottom: 13px;
+  box-sizing: border-box;
+  margin: 0 20px;
+  border: 1px solid #2BCF81;
+  cursor: pointer;
+  order: 1;
+}
+
+.modal {
+  display: none; /* 기본적으로 보이지 않도록 설정 */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5); /* 배경 어둡게 */
+
+}
+
+/* 모달 콘텐츠 스타일 */
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 400px;
+  position: relative;
+  text-align: center;
+  border-radius: 10px; /* 모서리 둥글게 */
+}
+
+/* 닫기 버튼 스타일 */
+.close {
+  color: #aaa;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 28px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* :target을 사용하여 모달 표시 */
+.modal:target {
+  display: flex; /* Flexbox 사용 */
+  justify-content: center; /* 수평 가운데 정렬 */
+  align-items: center; /* 수직 가운데 정렬 */
+}
+
+/* 버튼 스타일 */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button.cancel {
+  background-color: #6c757d;
+}
+
+.button.confirm {
+  background-color: #dc3545;
+}
