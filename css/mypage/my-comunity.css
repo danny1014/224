@@ -14,7 +14,7 @@ main {
 }
 
 /* 전체 박스 */
-.my-pickBox{
+.my-comunityBox{
   display: flex;
   gap: 20px;
 }
@@ -228,6 +228,11 @@ li::marker {
   content: '';
 }
 
-a{
-  text-decoration: none;
-};
+a {
+  color: black; 
+  text-decoration: none; 
+}
+
+a:visited {
+  color: black;
+}

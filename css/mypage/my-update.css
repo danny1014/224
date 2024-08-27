@@ -11,6 +11,12 @@ main {
   background-color: rgb(231, 255, 230);
 }
 
+/* 전체 박스 */
+.my-updateBox{
+  display: flex;
+  gap: 20px;
+}
+
 /* 메인 왼쪽 박스 */
 .my-leftbox{
   width: 350px;
@@ -180,6 +186,11 @@ main {
   font-size: 16px;
 }
 
-a{
-  text-decoration: none;
-};
+a {
+  color: black; 
+  text-decoration: none; 
+}
+
+a:visited {
+  color: black;
+}
