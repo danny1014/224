@@ -11,14 +11,14 @@ header{
 }
 
 main{
-  background-color:white;
+  background-color: white;
   width: 1060px;
   height: 800px;
   margin: auto;
 }
 
-.login_find h3{
-  margin-left: 416px;
+.login h3{
+  margin-left: 463px;
   padding: 36px;
   font-size: 32px;
 }
@@ -35,38 +35,56 @@ main{
   gap: 7px;
 }
 
-.name{
+.id{
   font-size: 16px;
   margin-left: -280px;
   margin-bottom: -2px;
   margin-top: 20px;
 }
 
-#name{
+#id{
   width: 330px;
   height: 50px;
   background-color: white;
   border-radius: 10px;
 }
 
-.p_number{
+.pw{
   font-size: 16px;
   margin-left: -270px;
   margin-bottom: -2px;
   margin-top: 10px;
 }
 
-#p_number{
+#pw{
   width: 330px;
   height: 50px;
-  background-color:white;
+  background-color: white;
   border-radius: 10px;
 }
 
-.login_ok{
+.login-bt{
   width: 330px;
   height: 50px;
   border-radius: 10px;
+  margin-top: 15px;
+  border: 1px solid #2BCF81;
+  background-color: #2BCF81;
+}
+
+.find-id {
+  list-style-type: none;
+  margin-left: -230px;
+  margin-top: 10px;
+}
+
+.login-join{
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  position: relative; /* 움직이게 할 수 있음*/
+  left: 115px;
+  bottom: 50px;
   border: 1px solid #2BCF81;
   background-color: #2BCF81;
 }
