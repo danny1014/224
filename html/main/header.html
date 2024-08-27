@@ -1,29 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>224</title>
   <link rel="stylesheet" href="../../css/main/header.css">
+  <script defer src="../../js/main/header.js"></script>
 </head>
+
 <body>
   <header>
-    <!-- 메인 로고 -->
-    <section class="header">
-      <div class="header-logo">
-        <div id="header-img-0"><a href="#"><img src="../../images/logo-224-1.png" alt="로고"></a></div>
-        <div id="header-img-1"><a href="#"><img src="../../images/logo-224-0.png" alt="로고"></a></div>
+    <section class="header-section">
+      <div class="header-fixed">
+        <ul class="header-list">
+          <li>
+            <!-- 메인 로고 -->
+            <div class="header-logo">
+              <div id="header-img-0"><a href="#"><img src="../../images/logo-224-1.png" alt="로고"></a></div>
+              <div id="header-img-1"><a href="#"><img src="../../images/logo-224-0.png" alt="로고"></a></div>
+            </div>
+          </li>
+          <li>
+            <!-- 메인 검색창 -->
+            <div class="header-search">
+              <div id="header-search-frame"><a href="#"><img src="../../images/main-search.png"></a></div>
+              <!-- <input id="search" type="text" placeholder="검색하세요"> -->
+            </div>
+          </li>
+          <li>
+            <!-- 로그인 및 회원가입 버튼 -->
+            <div id="header-weather"><a href="#"><img src="../../images/weather.jpg"></a></div>
+            <div id="header-login-join-btn">
+              <h5>로그인 및 회원가입</h5>
+            </div>
+          </li>
+        </ul>
       </div>
-      <!-- 메인 검색창 -->
-      <div class="header-search">
-        <div id="header-search-frame"><a href="#"><img src="../../images/main-search.png"></a></div>
-        <!-- <input id="search" type="text" placeholder="검색하세요"> -->
-      </div>
-      <!-- 날씨 쨍쨍 -->
-      <div id="header-weather"><a href="#"><img src="../../images/weather.jpg"></a></div>
-      <div id="header-login-join-btn"><h5>로그인 및 회원가입</h5></div>
     </section>
-    <!-- 메인 메뉴 -->
+    <section>
+      <!-- 메인 메뉴 드롭다운-->
       <div id="dropdown-container">
         <div class="dropdown">
           <!-- 2호선폭폭 -->
@@ -31,7 +47,9 @@
           <div class="dropdown-menu-txt">2호선폭폭</div>
           <div class="dropdown-content">
             <ul class="dropdown-subway">
-              <li><div class="dropdown-line"></div></li>
+              <li>
+                <div class="dropdown-line"></div>
+              </li>
               <li><a href="#">2호선폭폭</a></li>
               <li><a href="#">2호선 노선도</a></li>
               <li><a href="#">2호선 배차시간표</a></li>
@@ -44,7 +62,9 @@
           <div class="dropdown-menu-txt">핫플콕콕</div>
           <div class="dropdown-content">
             <ul class="dropdown-hot">
-              <li><div class="dropdown-line"></div></li>
+              <li>
+                <div class="dropdown-line"></div>
+              </li>
               <li><a href="#">핫플콕콕</a></li>
               <li><a href="#">강남역</a></li>
               <li><a href="#">잠실역</a></li>
@@ -61,7 +81,9 @@
           <div class="dropdown-menu-txt">편의공공</div>
           <div class="dropdown-content">
             <ul class="dropdown-conv">
-              <li><div class="dropdown-line"></div></li>
+              <li>
+                <div class="dropdown-line"></div>
+              </li>
               <li><a href="#">편의공공</a></li>
               <li><a href="#">물품보관함</a></li>
             </ul>
@@ -73,7 +95,9 @@
           <div class="dropdown-menu-txt">커뮤톡톡</div>
           <div class="dropdown-content">
             <ul class="dropdown-comu">
-              <li><div class="dropdown-line"></div></li>
+              <li>
+                <div class="dropdown-line"></div>
+              </li>
               <li><a href="#">커뮤톡톡</a></li>
             </ul>
           </div>
@@ -84,13 +108,16 @@
           <div class="dropdown-menu-txt">공지쏙쏙</div>
           <div class="dropdown-content">
             <ul class="dropdown-notice">
-              <li><div class="dropdown-line"></div></li>
+              <li>
+                <div class="dropdown-line"></div>
+              </li>
               <li><a href="#">공지쏙쏙</a></li>
             </ul>
           </div>
         </div>
       </div>
-    </nav>
+    </section>
   </header>
 </body>
+
 </html>
