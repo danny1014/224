@@ -1,4 +1,4 @@
-.modal {
+.notice-modal {
   display: none; /* 기본적으로 숨김 */
   position: fixed;
   z-index: 1;
@@ -10,7 +10,7 @@
   overflow: auto;
 }
 
-.modal-content {
+.notice-modal-content {
   background-color: #fff;
   border-radius: 10px;
   margin: 10% auto;
@@ -21,25 +21,25 @@
   text-align: center;
 }
 
-.close {
+.notice-close {
   color: #888;
   float: right;
   font-size: 24px;
   font-weight: bold;
 }
 
-.modal-content h2 {
+.notice-modal-content h2 {
   margin: 0 0 15px;
   font-size: 20px;
   color: #333;
 }
 
-.modal-content p {
+.notice-modal-content p {
   font-size: 16px;
   color: #555;
 }
 
-.modal-content button {
+.notice-modal-content button {
   background-color: #2bcf81; /* 확인 버튼 색상 */
   color: white;
   border: none;
@@ -50,6 +50,6 @@
   transition: background-color 0.3s;
 }
 
-.modal-content .cancel-btn {
+.notice-modal-content .notice-cancel-btn {
   background-color: #2bcf81; /* 취소 버튼 색상 */
 }
