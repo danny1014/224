@@ -7,13 +7,14 @@
   margin: 0 auto;
   display: flex;
 }
-/* 
+
 .header-fixed {
   position: fixed;
   z-index: 1000;
-} */
+}
 
 .header-section ul {
+  height: 0px;
   display: flex;
   list-style-type: none;
 }
