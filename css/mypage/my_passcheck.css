@@ -12,19 +12,19 @@ main {
 }
 
 /* 메인 왼쪽 박스 */
-.my_leftbox{
+.my-leftbox{
   width: 350px;
   height: 700px;
 }
 
 /* 메인 오른쪽 박스 */
-.my_rightbox{
+.my-rightbox{
   width: 650px;
   height: 700px;
 }
 
 /* 메인 왼쪽 환영메세지 박스 */
-.my_hello{
+.my-hello{
   background-color: white;
   width: 350px;
   height: 130px;
@@ -36,7 +36,7 @@ main {
 }
 
 /* 환영메시지 인삿말 */
-.my_wellcome{
+.my-wellcome{
   background-color: white;
   font-size: 16px;
   font-weight: bold;
@@ -44,14 +44,14 @@ main {
 }
 
 /* 환영메세지 닉네임 */
-.my_nickname{
+.my-nickname{
   background-color: white;
   font-size: 16px;
   font-weight: bold;
 }
 
 /* 목록 박스 */
-.my_category{
+.my-category{
   background-color: white;
   max-width: 350px;
   height: 70%;
@@ -60,14 +60,14 @@ main {
 }
 
 /* 구분선 */
-.my_line{
+.my-line{
   background-color: black;
   height: 1px;
   width: 95%;
 }
 
 /* 마이페이지 목록 상세 */
-.my_category_menu{
+.my-category-menu{
   background-color: white;
   font-size: 16px;
 }
@@ -76,7 +76,7 @@ main {
 
 
 /* 비밀번호확인 박스 */
-.my_passcheck{
+.my-passcheck{
   background-color: white;
   max-width: 650px;
   height: 600px;
@@ -87,14 +87,14 @@ main {
 }
 
 /* 제목 : 개인 정보 수정 */
-.my_passchek_title{
+.my-passchek-title{
   background-color: white;
   font-size: 24px;
   font-weight: bold;
 }
 
 /* 부제목 : 비밀번호확인 */
-.my_passchek_subtitle{
+.my-passchek-subtitle{
   background-color: white;
   font-size: 24px;
   font-weight: bold;
@@ -102,28 +102,28 @@ main {
 }
 
 /* 비밀번호확인 안내메세지 */
-.my_passchek_title_info{
+.my-passchek-title-info{
   background-color: white;
   font-size: 16px;
   color: gray;
 }
 
 /* 비밀번호 확인 가운데 영역 */
-.my_passchek_center{
+.my-passchek-center{
   background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.my_passchek_category{
+.my-passchek-category{
   background-color: white;
   display: flex;
   align-items: center;
 }
 
 /* id입력 input박스 */
-.my_input_id{
+.my-input-id{
   background-color: white;
   width: 280px;
   height: 50px;
@@ -132,7 +132,7 @@ main {
 }
 
 /* password입력 input박스 */
-.my_input_password{
+.my-input-password{
   background-color: white;
   width: 280px;
   height: 50px;
@@ -140,7 +140,7 @@ main {
   border: 1px solid black;
 }
 
-.my_passcheck_menu{ 
+.my-passcheck-menu{ 
   background-color: white;
   width: 100px;
   height: 20px;
@@ -152,7 +152,7 @@ main {
 
 
 
-.my_button{
+.my-button{
   background-color: #2BCF81;
   color: white;
   border-radius: 15px;

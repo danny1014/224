@@ -12,19 +12,19 @@ main {
 }
 
 /* 메인 왼쪽 박스 */
-.my_leftbox{
+.my-leftbox{
   width: 350px;
   height: 700px;
 }
 
 /* 메인 오른쪽 박스 */
-.my_rightbox{
+.my-rightbox{
   width: 650px;
   height: 700px;
 }
 
 /* 메인 왼쪽 환영메세지 박스 */
-.my_hello{
+.my-hello{
   background-color: white;
   width: 350px;
   height: 130px;
@@ -36,7 +36,7 @@ main {
 }
 
 /* 환영메시지 인삿말 */
-.my_wellcome{
+.my-wellcome{
   background-color: white;
   font-size: 16px;
   font-weight: bold;
@@ -44,14 +44,14 @@ main {
 }
 
 /* 환영메세지 닉네임 */
-.my_nickname{
+.my-nickname{
   background-color: white;
   font-size: 16px;
   font-weight: bold;
 }
 
 /* 목록 박스 */
-.my_category{
+.my-category{
   background-color: white;
   max-width: 350px;
   height: 70%;
@@ -60,14 +60,14 @@ main {
 }
 
 /* 구분선 */
-  .my_line{
+  .my-line{
     background-color: black;
     height: 1px;
     width: 95%;
   }
 
 /* 마이페이지 목록 상세 */
-.my_category_menu{
+.my-category-menu{
   background-color: white;
   font-size: 16px;
 }
@@ -75,7 +75,7 @@ main {
 /* ============================= */
 
 /* 개인정보수정 */
-.my_update{
+.my-update{
   background-color: white;
   max-width: 650px;
   height: 600px;
@@ -87,37 +87,38 @@ main {
 }
 
 /* 개인정보수정 제목 */
-.my_update_title{
+.my-update-title{
   background-color: white;
   font-size: 24px;
   font-weight: bold;
 }
 
-.my_update_center{
+.my-update-center{
   background-color: skyblue;
   width: 95%;
   height: 95%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0;
 }
 
-.my_update_menu{
+.my-update-menu{
   background-color: white;
+  margin: 0px;
   width: 300px;
   height: 40px;
   display: flex;
   align-items: center;
-  gap: 10px;
 }
 
-.my_update_value{
+.my-update-value{
   background-color: white;
   width: 80px;
   height: 25px;
 }
 
-.my_update_input{
+.my-update-input{
   background-color: white;
   width: 200px;
   height: 25px;
@@ -126,7 +127,7 @@ main {
 
 
 /* 개인정보수정완료버튼 */
-.my_button_update{
+.my-update-button{
   background-color: #2BCF81;
   color: white;
   border-radius: 15px;

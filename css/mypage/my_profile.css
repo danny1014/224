@@ -12,19 +12,19 @@ main {
 }
 
 /* 메인 왼쪽 박스 */
-.my_leftbox{
+.my-leftbox{
   width: 350px;
   height: 700px;
 }
 
 /* 메인 오른쪽 박스 */
-.my_rightbox{
+.my-rightbox{
   width: 650px;
   height: 700px;
 }
 
 /* 메인 왼쪽 환영메세지 박스 */
-.my_hello{
+.my-hello{
   background-color: white;
   width: 350px;
   height: 130px;
@@ -36,7 +36,7 @@ main {
 }
 
 /* 환영메시지 인삿말 */
-.my_wellcome{
+.my-wellcome{
   background-color: white;
   font-size: 16px;
   font-weight: bold;
@@ -44,14 +44,14 @@ main {
 }
 
 /* 환영메세지 닉네임 */
-.my_nickname{
+.my-nickname{
   background-color: white;
   font-size: 16px;
   font-weight: bold;
 }
 
 /* 목록 박스 */
-.my_category{
+.my-category{
   background-color: white;
   max-width: 350px;
   height: 70%;
@@ -60,20 +60,20 @@ main {
 }
 
 /* 구분선 */
-.my_line{
+.my-line{
   background-color: black;
   height: 1px;
   width: 95%;
 }
 
 /* 마이페이지 목록 상세 */
-.my_category_menu{
+.my-category-menu{
   background-color: white;
   font-size: 16px;
 }
 
 /* 프로필박스 */
-.my_profile{
+.my-profile{
   background-color: white;
   max-width: 650px;
   height: 600px;
@@ -85,18 +85,18 @@ main {
 }
 
 /* 내프로필 제목 */
-.my_profile_title{
+.my-profile-title{
   background-color: white;
   font-size: 24px;
   font-weight: bold;
 }
 
-.my_profile_category{
+.my-profile-category{
   background-color: white;
   display: flex;
 }
 
-.my_profile_menu{ 
+.my-profile-menu{ 
   background-color: white;
   width: 100px;
   height: 20px;
@@ -104,7 +104,7 @@ main {
   font-size: 16px;
 }
 
-.my_profile_value{
+.my-profile-value{
   background-color: white;
   width: 350px;
   height: 20px;
@@ -112,11 +112,11 @@ main {
   font-size: 16px;
 }
 
-.my_profile_center{
+.my-profile-center{
   background-color: white;
 }
 
-.my_button{
+.my-button{
   background-color: #2BCF81;
   color: white;
   border-radius: 15px;
