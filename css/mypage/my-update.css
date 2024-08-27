@@ -94,28 +94,28 @@ main {
 }
 
 .my-update-center{
-  background-color: skyblue;
-  width: 95%;
-  height: 95%;
+  background-color: white;
+  width: 500px;
+  height: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0;
+  gap: 3px;
 }
 
 .my-update-menu{
   background-color: white;
   margin: 0px;
-  width: 400px;
+  width: 450px;
   height: 30px;
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 15px;
 }
 
 .my-update-value{
   background-color: white;
-  width: 80px;
+  width: 100px;
   height: 25px;
 }
 
@@ -128,10 +128,44 @@ main {
 .my-update-value-check{
   background-color: white;
   width: 100px;
-  height: 25px;
+  height: 27px;
+}
+
+.my-update-event{
+  background-color: white;
+  margin: 0px;
+  width: 450px;
+  height: 150px;
+  align-items: center;
+  gap: 5px;
 }
 
 
+.my-update-evnetSelect-up{
+  background-color: white;
+  margin: 0px;
+  width: 450px;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.my-update-evnetSelect-down{
+  background-color: white;
+  margin: 0px;
+  width: 450px;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.my-update-evnetSelect-sub{
+  background-color: white;
+}
 
 /* 개인정보수정완료버튼 */
 .my-update-button{
