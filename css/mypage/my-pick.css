@@ -103,7 +103,7 @@ main {
 
 /* 찜목록 표시 영역 */
 .my-pick-center{
-  background-color: skyblue;
+  background-color: white;
   width: 600px;
   height: 970px;
   display: flex;
@@ -113,7 +113,7 @@ main {
 
 /* 찜목록 줄마다 크기 */
 .my-pick-box{
-  background-color: red;
+  background-color: white;
   width: 600px;
   height: 300px;
   display: flex;
@@ -124,27 +124,41 @@ main {
 
 /* 찜목록표시 크기 */
 .my-pick-area{
-  background-color: pink;
+  background-color: white;
   width: 190px;
   height: 300px;
 }
 
 /* 찜목록 상단(제목 하트) */
 .my-pick-textArea{
-  background-color: antiquewhite;
+  background-color: white;
   width: 190px;
-  height: 80px;
+  height: 60px;
   display: flex;
   justify-content: space-between;
   margin: 0;
   padding: 0;
+  align-items: center ;
 }
 
 .my-pick-pictureArea{
-  background-color: yellow;
+  background-color: white;
   width: 190px;
-  height: 220px;
+  height: 240px;
   margin: 0;
   padding: 0;
 }
 
+
+.my-pick-name{
+  background-color: white;
+  width: auto;
+  height: 40px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+img{
+  margin: 0;
+  padding: 0;
+}
