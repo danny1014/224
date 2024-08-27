@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>게시판 댓글 작성자</title>
   <link rel="stylesheet" href="../../css/community/comu-post.css">
+  <link rel="stylesheet" href="../../css/modal/comu-modal.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
@@ -67,7 +69,7 @@
               <div><span>감사합니다~!</span>
               <div class="comu-member-rewrite-contents">
                 <button class="comu-member-rewrite-contents-button"><a href="../../html/community/comu-post-member-comment-rewrite.html">수정</a></button>
-                <button class="comu-member-rewrite-contents-button">삭제</button>
+                <button class="comu-member-rewrite-contents-button" id="comu-myModal" type="button" onclick="openDeleteModal()"><span>삭제</span></button>
               </div>
               </div>
               <div><small>2024-08-23 14:30</small></div>
@@ -115,6 +117,17 @@
       </div>
     </div>
   </div>
+  <!-- 삭제 모달 HTML -->
+  <div id="comu-deleteModal" class="comu-modal">
+    <div class="comu-modal-content">
+      <span class="comu-close" onclick="closeDeleteModal()">&times;</span>
+      <h2>정말로 삭제하시겠습니까?</h2>
+      <p>삭제 버튼을 클릭하면 항목이 영구히 삭제됩니다.</p>
+      <button class="confirm-btn" onclick="confirmDelete()">삭제</button>
+      <button class="comu-cancel-btn" onclick="closeDeleteModal()">취소</button>
+    </div>
+  </div>
 </body>
+<script src="../../js/modal/comu-modal.js"></script>
 
 </html>
