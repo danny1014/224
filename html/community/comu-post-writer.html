@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>게시글(회원)</title>
   <link rel="stylesheet" href="../../css/community/comu-post.css">
+  <link rel="stylesheet" href="../../css/modal/comu-modal.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
@@ -53,14 +55,14 @@
 
         <div class="comu-div-flex-content">
           <div class="com-div-flex-box-div">
-            <button id="comu-submit"><a href="./comu-main-member.html">이전</a></button>
+            <button type="button" class="comu-submit"><a href="./comu-main-member.html">이전</a></button>
           </div>
           <div class="comu-div-flex-box">
             <div class="com-div-flex-box-div">
-              <button id="comu-submit"><a href="./comu-post-rewrite.html">수정</a></button>
+              <button type="button" class="comu-submit"><a href="./comu-post-rewrite.html">수정</a></button>
             </div>
             <div class="com-div-flex-box-div">
-              <button id="comu-submit">삭제</button>
+              <button type="button" class="comu-submit">삭제</button>
             </div>
           </div>
         </div>
@@ -118,15 +120,18 @@
       </div>
     </div>
   </div>
-  <div id="openModal" class="modal">
-    <div class="modal-content">
-      <a href="#" class="close">&times;</a>
-      <p>정말 삭제하겠습니까?</p>
-      <a href="#" class="button cancel">취소</a>
-      <a href="#" class="button confirm">확인</a>
+  <!-- 삭제 모달 HTML -->
+  <div id="comu-deleteModal" class="comu-modal">
+    <div class="comu-modal-content">
+      <span class="comu-close" onclick="closeDeletePostModal()">&times;</span>
+      <h2>정말로 삭제하시겠습니까?</h2>
+      <p>삭제 버튼을 클릭하면 항목이 영구히 삭제됩니다.</p>
+      <button class="confirm-btn" onclick="confirmPostDelete()">삭제</button>
+      <button class="comu-cancel-btn" onclick="closeDeletePostModal()">취소</button>
     </div>
   </div>
-</body>
 
+</body>
+<script src="../../js/modal/comu-modal.js"></script>
 
 </html>

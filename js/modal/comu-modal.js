@@ -46,12 +46,13 @@ $(document).ready(function() {
 });
 
 
+
 // 뒤로가기모달
-function openModal() {
+function openBackModal() {
   document.getElementById('comu-back-modal');
 }
 
-function closeModal() {
+function closeBackModal() {
   document.getElementById('comu-back-modal');
 }
 
@@ -88,7 +89,7 @@ $(document).ready(function() {
   // 모달 외부 클릭 시 닫기
   $(window).on('click', function(event) {
     if ($(event.target).is($modal)) {
-      closeDeleteModal();
+      closeBackModal();
     }
   });
 });

@@ -324,7 +324,7 @@ tr {
   height: 50px;
 }
 
-#comu-submit {
+.comu-submit {
   background-color: #0AC200;
   width: 100px;
   height: 40px;

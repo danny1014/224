@@ -65,7 +65,6 @@ h6 {
 }
 
 .cheditor-editarea-text-content {
-<<<<<<< HEAD
   overflow-x: hidden;
   overflow-y: scroll;
   margin: 0;
@@ -76,28 +75,14 @@ h6 {
   font-family: malgun gothic;
   font-size: 12px;
   outline: none;
-=======
-    overflow-x: hidden;
-    overflow-y: scroll;
-    margin: 0;
-    border: 1px solid transparent;
-    padding: 7px 10px;
-    width: 100%;
-    height: 100%;
-    font-family: malgun gothic;
-    font-size: 12px;
-    outline: none;
 }
 
-
-.comu-input-text-title{
-  width: 100%;
-  height: 27px;
+.tempas-bt01{
+  background-color: #0AC200;
+  width: 100px;
+  height: 40px;
   margin: 10px 0px;
-}
-
-.comu-input-text-content{
-  width: 100%;
-  height: 300px;
->>>>>>> ssm
+  font-size: 15px;
+  font-weight: bold;
+  color: aliceblue;
 }

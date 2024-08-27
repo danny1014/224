@@ -39,12 +39,12 @@
                     <div style="display: flex; justify-content: space-between;">
                         <div>
 
-                            <input type="button" value="취소" class="tempas-bt01" id="comu-back-modal" onclick="openbackModal()">
+                            <button type="button" class="tempas-bt01" id="comu-back-modal" onclick="openBackModal()"><span>취소</span></button>
                             
                         </div>
                         <div>
                             <a href="./comu-post-writer.html">
-                                <input id="ok-button" type="submit" value="작성완료" class="submit-w tempas-bt03">
+                                <button id="ok-button" type="submit" class="tempas-bt01">작성완료</button>
                             </a>
                         </div>
                     </div>
@@ -52,11 +52,12 @@
             </div>
         </div>
     </div>
+    <!-- 뒤로가기 모달창 -->
     <div id="comu-backModal" class="comu-modal">
         <div class="comu-modal-content">
           <span class="comu-close" onclick="closeBackModal()">&times;</span>
           <h2>정말로 뒤로가시겠습니까?</h2>
-          <p>뒤로가기 버튼을 클릭하면 항목이 영구히 삭제됩니다.</p>
+          <p>뒤로가기 버튼을 클릭하면 작성한 내용은 저장되지 않습니다</p>
           <button class="confirm-btn" onclick="confirmBack()">뒤로가기</button>
           <button class="comu-cancel-btn" onclick="closeBackModal()">취소</button>
         </div>
