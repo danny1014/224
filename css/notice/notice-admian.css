@@ -11,7 +11,7 @@
   min-height: 100vh;
   left: 100px;
 }
-.notice_admain_all {
+.notice-admain-all {
   position: relative;
   min-width: 1060px;
 }
@@ -23,12 +23,12 @@ a {
 }
 
 /* 게시판 구역 너비 */
-.notice_admain_main {
+.notice-admain-main {
   width: 820px;
 }
 
 /* 상단 '공지사항' 파트 스타일 적용 */
-.notice_admain_toptxt {
+.notice-admain-toptxt {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -44,7 +44,7 @@ a {
 }
 
 /* 상단 '공지사항' 컨테이너 내부 텍스트 스타일 적용 */
-.notice_admain_toptxt_in {
+.notice-admain-toptxt-in {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -59,7 +59,7 @@ a {
 }
 
 /* 상단 '공지사항' */
-.notice_admain_toptxt_txt {
+.notice-admain-toptxt-txt {
   font-weight: 500;
   font-size: 24px;
   color: rgb(51, 51, 51);
@@ -68,7 +68,7 @@ a {
 }
 
 /* 분류, 제목, 작성자, 작성일 컨테이너 */
-.notice_admain_container {
+.notice-admain-container {
   display: flex;
   width: 100%;
   padding: 20px 0px;
@@ -77,7 +77,7 @@ a {
 }
 
 /* 분류 */
-.notice_admain_container_cate {
+.notice-admain-container-cate {
   flex-basis: 50px;
   text-align: center;
   line-height: 20px;
@@ -87,7 +87,7 @@ a {
 }
 
 /* 제목 */
-.notice_admain_container_title {
+.notice-admain-container-title {
   -webkit-box-flex: 1;
   flex-grow: 1;
   text-align: center;
@@ -97,7 +97,7 @@ a {
 }
 
 /* 작성자, 작성일 */
-.notice_admain_container_audate {
+.notice-admain-container-audate {
   flex-basis: 100px;
   text-align: center;
   line-height: 20px;
@@ -106,7 +106,7 @@ a {
 }
 
 /* 게시글 목록 ul태그 */
-.notice_admain_ul_all {
+.notice-admain-ul-all {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -117,14 +117,14 @@ a {
 }
 
 /* 게시글 목록 ul>li 태그 내부 스타일 */
-.notice_admain_ul_main {
+.notice-admain-ul-main {
   display: flex;
   flex-direction: row;
   border-bottom: 1px solid rgb(244, 244, 244);
 }
 
 /* 게시글 안내 표기된 곳 */
-.notice_admain_ul_cate {
+.notice-admain-ul-cate {
   text-align: center;
   padding: 20px 0px;
   color: rgb(76, 76, 76);
@@ -133,7 +133,7 @@ a {
 }
 
 /* 제목 표기된 곳 */
-.notice_admain_ul_title {
+.notice-admain-ul-title {
   padding: 20px 0px 20px 20px;
   color: rgb(76, 76, 76);
   flex: 1 1 0%;
@@ -141,7 +141,7 @@ a {
 }
 
 /* 작성자 표기된 곳 */
-.notice_admain_ul_author {
+.notice-admain-ul-author {
   text-align: center;
   padding: 20px 0px;
   color: rgb(76, 76, 76);
@@ -149,26 +149,26 @@ a {
 }
 
 /* 작성날짜 표기된 곳 */
-.notice_admain_ul_date {
+.notice-admain-ul-date {
   text-align: center;
   padding: 20px 0px;
   flex-basis: 100px;
   color: rgb(153, 153, 153);
 }
 
-.info_bg2 .bottom-list {
+.info-bg2 .bottom-list {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 10px;
 }
 
-.info_bg2 .bottom-list .prev {
+.info-bg2 .bottom-list .prev {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
 
-.info_bg2 .bottom-list a {
+.info-bg2 .bottom-list a {
   color: #505050;
   border: 1px solid #ccc;
   box-sizing: border-box;
@@ -181,13 +181,13 @@ a {
   justify-content: space-around;
 }
 
-.info_bg2 .bottom-list a.on {
+.info-bg2 .bottom-list a.on {
   font-weight: bold;
   color: #ff7864;
   background: #fff6f4;
 }
 
-.info_bg2 .bottom-list .prev {
+.info-bg2 .bottom-list .prev {
   content: '';
   background: url('../../images/prev.png') no-repeat center;
   display: inline-block;
@@ -196,7 +196,7 @@ a {
   height: 10px;
 }
 
-.info_bg2 .bottom-list .next {
+.info-bg2 .bottom-list .next {
   content: '';
   background: url('../../images/next.png') no-repeat center;
   display: inline-block;
@@ -212,7 +212,7 @@ li::marker {
 }
 
 /* '글쓰기' 버튼 파트 컨테이너 */
-.notice_admain_btuall {
+.notice-admain-btuall {
   display: flex;
   width: 100%;
   padding: 10px 0px;
@@ -222,7 +222,7 @@ li::marker {
 }
 
 /* '글쓰기' 버튼 */
-.notice_admain_btu {
+.notice-admain-btu {
   display: block;
   padding: 0px 10px;
   text-align: center;
@@ -236,12 +236,12 @@ li::marker {
 }
 
 /* '글쓰기' 폰트사이즈 */
-.notice_admain_btuall span {
+.notice-admain-btuall span {
   font-size: 13px;
 }
 
 /* '글쓰기' 폰트 두께 */
-.notice_admain_btu-sp {
+.notice-admain-btu-sp {
   display: inline-block;
   font-size: 16px;
   font-weight: 500;
