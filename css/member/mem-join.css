@@ -20,7 +20,7 @@ main{
   align-items: center;
 }
 
-.join_main{
+.join-main{
   width: 95%;
 }
 
@@ -32,26 +32,26 @@ main{
   margin-top: 10px;
 }
 
-.join_p{
+.join-p{
   display: flex;
   flex-direction: column;
   align-items: end;
 }
 
-.mem_line{
+.mem-line{
   background-color: black;
   height: 1px;
   width: 100%;
 }
 
-.join_info_box{
+.join-info-box{
   display: flex;
   flex-direction: column;
   text-align: left;
   float: left;
 }
 
-.join_info_cate{
+.join-info-cate{
   width: 120px;
   height: 53px;
   display: flex;
@@ -59,19 +59,19 @@ main{
 }
 
 /*이메일 입력*/
-.join_info{
+.join-info{
   display: flex;
   gap: 20px;
 }
 
-#e_mail{
+#e-mail{
   display: flex;
   width: 500px;
   height: 40px;
   border-radius: 5px;
 }
 
-.e_mailok{
+.e-mailok{
   width: 100px;
   height: 40px;
   border-radius: 5px;
@@ -80,7 +80,7 @@ main{
 
 /*비밀번호 입력*/
 
-#join_pw{
+#join-pw{
   display: flex;
   width: 500px;
   height: 40px;
@@ -88,7 +88,7 @@ main{
 }
 
 /*비밀번호 한 번 더 확인*/
-#join_pw_one{
+#join-pw-one{
   display: flex;
   width: 500px;
   height: 40px;
@@ -96,7 +96,7 @@ main{
 }
 
 /*이름 입력*/
-#join_name{
+#join-name{
   display: flex;
   width: 500px;
   height: 40px;
@@ -104,7 +104,7 @@ main{
 }
 
 /*닉네임 입력*/
-#join_n_name{
+#join-n-name{
   display: flex;
   width: 500px;
   height: 40px;
@@ -112,7 +112,7 @@ main{
 }
 
 /*휴대폰번호 입력*/
-#join_number{
+#join-number{
   display: flex;
   width: 500px;
   height: 40px;
@@ -120,7 +120,7 @@ main{
 }
 
 /* 성별 입력*/
-.join_gender{
+.join-gender{
   display: flex;
   width: 500px;
   margin-top: 10px;
@@ -134,7 +134,7 @@ main{
 }
 
 /*생일*/
-#join_birth{
+#join-birth{
   display: flex;
   width: 500px;
   height: 40px;
@@ -143,7 +143,7 @@ main{
   justify-content: center;
 }
 
-.mem_line2{
+.mem-line2{
   background-color: black;
   height: 1px;
   width: 100%;
