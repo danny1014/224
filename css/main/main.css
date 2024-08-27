@@ -1,17 +1,157 @@
 .main-section-first {
   /* border: 1px solid red; */
   width: 1060px;
-  height: 500px;
+  height: 340px;
   margin: 0 auto;
 }
 
 .main-station img {
-  width: 250px;
-  height: 330px;
-  margin: 10px;
+  width: 220px;
+  height: 300px;
+  margin: 15px;
+  margin-top: -50px;
+  margin-left: 25px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.main-slide-btn button {
+  padding: 5px 15px;
+  margin: 5px;
+  font-size: 30px;
+  cursor: pointer;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 55px;
+  font-weight: 100;
+  align-items: center;
+}
+
+.main-slide-btn button:hover {
+  background-color: lightgray;
+}
+
+#main-slide-left {
+  transform: translate(3px, 130px);
+}
+
+#main-slide-right {
+  transform: translate(930px, 130px);
+}
+
+.main-station ul {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+}
+
+.main-station a {
+  color: black;
+  text-decoration-line: none;
+}
+
+.main-station h2 {
+  font-size: 20px;
+  text-align: center;
+  transform: translate(0px, -270px);
+  font-weight: 500;
+  color: white;
 }
 
 #main-station-btn {
   width: 80px;
   height: 40px;
+  background-color: white;
+  border-radius: 5px;
+  transform: translate(30px, -130px);
+  text-align: center;
+  font-size: 12px;
+  align-content: center;
+  font-weight: 600;
+  color: rgb(100, 100, 100);
+  margin: 5px;
+}
+
+/* 섹션 두번째 - 슬라이드 배너 */
+.main-section-second {
+  /* border: 1px solid red; */
+  width: 1060px;
+  height: 360px;
+  margin: 0 auto;
+}
+
+/* 슬라이드배너시작부분 */
+.main-all {
+  position: relative;
+  overflow: hidden;
+}
+
+.main-slidebanner {
+  position: relative;
+  width: 100%;
+  height: 340px;
+  overflow: hidden;
+}
+
+.main-section-second h1 {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+.keen-slider {
+  display: flex;
+  transition: transform 0.7s ease;
+  gap: 20px;
+}
+
+.keen-slider__slide {
+  min-width: 700px;
+  height: 280px;
+  flex-shrink: 0;
+}
+
+.main-slider-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 95%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.prev svg,
+.next svg {
+  width: 24px;
+  height: 24px;
+}
+
+.prev {
+  left: 240px;
+}
+
+.next {
+  right: 240px;
+}
+
+.main-section-third {
+  width: 1060px;
+  height: 800px;
+  border: 1px solid blue;
+  margin: 0 auto;
 }
