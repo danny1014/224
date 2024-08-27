@@ -20,6 +20,10 @@
     color: #555;
 }
 
+h2{
+    font-size:36px;
+}
+
 a {
     text-decoration: none;
     color: #666;
@@ -36,8 +40,6 @@ a {
 
 .img-wrapper{
     display: flex;
-    width: 256px;
-    height: 256px;
     background-color: gray;
     align-items: center;
     justify-content: center;
