@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>게시판 댓글 작성자 수정하기</title>
   <link rel="stylesheet" href="../../css/community/comu-write.css">
 </head>
 
@@ -32,18 +32,13 @@
             </ul>
           </div>
         </div>
-        <table border="0" cellspacing="0" cellpadding="0" width="100%" style="table-layout:fixed;" align="left">
-          <tbody>
-            <tr>
-              <td class="board-contents" align="left" valign="top">
-                <p>&nbsp;</p>
-                <p>차멀미가 좀 있어서 고속버스 타고 멀리갈때 항상 걱정인데..</p>
-                <p>참고하면 좋을 것 같네요!</p>
-                <p>&nbsp;&nbsp;</p><!--"&lt;-->
-              </td>
-            </tr>
-          </tbody>
-        </table><!--/DCM-BODY-->
+        
+        <!-- 게시글 내용 -->
+        <div class="comu-posting-textarea">
+          <span>차멀미가 좀 있어서 고속버스 타고 멀리갈때 항상 걱정인데..</span><br>
+          <span>참고하면 좋을 것 같네요!</span>
+        </div>
+
         <div class="recommendArea">
           <div id="recommend">
             <span class="up-numb"><span id="vote-list-btn-txt">6</span>
@@ -58,7 +53,7 @@
 
         <div class="comu-div-flex-content">
           <div class="com-div-flex-box-div">
-            <button id="comu-submit">이전</button>
+            <button id="comu-submit"><a href="./comu-main-member.html">이전</a></button>
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>게시글(회원)</title>
   <link rel="stylesheet" href="../../css/community/comu-post.css">
 </head>
 
@@ -22,6 +22,7 @@
             </div>
           </div>
         </div>
+        <!-- 게시글 정보 -->
         <div id="topTitle">
           <h1>고속버스 명당자리.jpg<span id="comment">[38]</span></h1>
           <div class="topTitle-box">
@@ -31,18 +32,13 @@
             </ul>
           </div>
         </div>
-        <table border="0" cellspacing="0" cellpadding="0" width="100%" style="table-layout:fixed;" align="left">
-          <tbody>
-            <tr>
-              <td class="board-contents" align="left" valign="top">
-                <p>&nbsp;</p>
-                <p>차멀미가 좀 있어서 고속버스 타고 멀리갈때 항상 걱정인데..</p>
-                <p>참고하면 좋을 것 같네요!</p>
-                <p>&nbsp;&nbsp;</p><!--"&lt;-->
-              </td>
-            </tr>
-          </tbody>
-        </table><!--/DCM-BODY-->
+
+        <!-- 게시글 내용 -->
+        <div class="comu-posting-textarea">
+          <span>차멀미가 좀 있어서 고속버스 타고 멀리갈때 항상 걱정인데..</span><br>
+          <span>참고하면 좋을 것 같네요!</span>
+        </div>
+
         <div class="recommendArea">
           <div id="recommend">
             <span class="up-numb"><span id="vote-list-btn-txt">6</span>
@@ -57,11 +53,11 @@
 
         <div class="comu-div-flex-content">
           <div class="com-div-flex-box-div">
-            <button id="comu-submit">이전</button>
+            <button id="comu-submit"><a href="./comu-main-member.html">이전</a></button>
           </div>
           <div class="comu-div-flex-box">
             <div class="com-div-flex-box-div">
-              <button id="comu-submit">수정</button>
+              <button id="comu-submit"><a href="./comu-post-rewrite.html">수정</a></button>
             </div>
             <div class="com-div-flex-box-div">
               <button id="comu-submit">삭제</button>
@@ -69,55 +65,55 @@
           </div>
         </div>
 
-              <div id="form-commentInfo">
-        <div id="comment-count">댓글 <span id="count">5</span></div>
-        <div id="comment-comment-list">
-          <ul>
-            <li>
-              <div><strong>닉네임</strong></div>
-              <div><span>감사합니다~!</span></div>
-              
-              <div><small>2024-08-23 14:30</small></div>
-            </li>
-            <br>
-            <li>
-              <div><strong>닉네임</strong></div>
-              <div><span>감사합니다~!</span></div>
-              
-              <div><small>2024-08-23 14:30</small></div>
-            </li>
-            <br>
-            <li>
-              <div><strong>닉네임</strong></div>
-              <div><span>감사합니다~!</span></div>
-              
-              <div><small>2024-08-23 14:30</small></div>
-            </li>
-            <br>
-            <li>
-              <div><strong>닉네임</strong></div>
-              <div><span>감사합니다~!</span></div>
-              
-              <div><small>2024-08-23 14:30</small></div>
-            </li>
-            <br>
-            <li>
-              <div><strong>닉네임</strong></div>
-              <div><span>감사합니다~!</span></div>
-              
-              <div><small>2024-08-23 14:30</small></div>
-            </li>
-            <br>
+        <div id="form-commentInfo">
+          <div id="comment-count">댓글 <span id="count">5</span></div>
+          <div id="comment-comment-list">
+            <ul>
+              <li>
+                <div><strong>닉네임</strong></div>
+                <div><span>감사합니다~!</span></div>
 
-          </ul>
-        </div>
+                <div><small>2024-08-23 14:30</small></div>
+              </li>
+              <br>
+              <li>
+                <div><strong>닉네임</strong></div>
+                <div><span>감사합니다~!</span></div>
 
-        <span id="comu-text-red">[알림]</span><span> 욕설,상처 줄 수 있는 악플은 삼가주세요</span>
+                <div><small>2024-08-23 14:30</small></div>
+              </li>
+              <br>
+              <li>
+                <div><strong>닉네임</strong></div>
+                <div><span>감사합니다~!</span></div>
+
+                <div><small>2024-08-23 14:30</small></div>
+              </li>
+              <br>
+              <li>
+                <div><strong>닉네임</strong></div>
+                <div><span>감사합니다~!</span></div>
+
+                <div><small>2024-08-23 14:30</small></div>
+              </li>
+              <br>
+              <li>
+                <div><strong>닉네임</strong></div>
+                <div><span>감사합니다~!</span></div>
+
+                <div><small>2024-08-23 14:30</small></div>
+              </li>
+              <br>
+
+            </ul>
+          </div>
+
+          <span id="comu-text-red">[알림]</span><span> 욕설,상처 줄 수 있는 악플은 삼가주세요</span>
           <div class="comu-inputbox-but">
             <input id="comment-input" placeholder="댓글을 입력해 주세요.">
             <button id="comu-submit">등록</button>
           </div>
-      </div>
+        </div>
 
       </div>
     </div>
