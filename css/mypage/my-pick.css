@@ -12,6 +12,13 @@ main {
   align-items: center; 
 }
 
+/* 전체 박스 */
+.my-pickBox{
+  display: flex;
+  gap: 20px;
+}
+
+
 /* 메인 왼쪽 박스 */
 .my-leftbox{
   width: 350px;
@@ -21,7 +28,7 @@ main {
 /* 메인 오른쪽 박스 */
 .my-rightbox{
   width: 650px;
-  height: 1500px;
+  height: 700px;
 }
 
 /* 메인 왼쪽 환영메세지 박스 */
@@ -80,7 +87,7 @@ main {
 .my-pick{
   background-color: white;
   max-width: 650px;
-  height: 600px;
+  height: 1100px;
   border-radius: 15px;
   padding: 20px;
   display: flex;
@@ -98,17 +105,28 @@ main {
 .my-pick-center{
   background-color: skyblue;
   width: 600px;
-  height: 450px;
+  height: 970px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 /* 찜목록 첫째줄 */
 .my-pick-box{
   background-color: red;
-  width: 550px;
-  height: 130px;
+  width: 600px;
+  height: 300px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
+/* 찜목록표시 */
+.my-pick-box1{
+  background-color: pink;
+  width: 190px;
+  height: 300px;
+}
 
 
