@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 3.6rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.notice_modi_board_wrap {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.notice_modi_board_title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.notice_modi_board_write .notice_modi_title {
+  margin-bottom: 20px;
+}
+
+.notice_modi_board_write input[type='text'] {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.6rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.notice_modi_board_write .notice_modi_cont {
+  margin-bottom: 20px;
+}
+
+.notice_modi_board_write textarea {
+  width: 100%;
+  height: 200px;
+  padding: 15px;
+  font-size: 1.6rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.notice_modi_button_container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.notice_modi_action_button {
+  padding: 10px 20px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #2bcf81;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
