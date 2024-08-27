@@ -1,0 +1,158 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: antiquewhite;
+  width: 1060px;
+  height: 200px;
+  margin: auto;
+}
+
+main{
+  background-color: white;
+  width: 1060px;
+  height: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.join_main{
+  width: 95%;
+}
+
+#join h5{
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.join_p{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.mem_line{
+  background-color: black;
+  height: 1px;
+  width: 100%;
+}
+
+.join_info_box{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  float: left;
+}
+
+.join_info_cate{
+  width: 120px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+}
+
+/*이메일 입력*/
+.join_info{
+  display: flex;
+  gap: 20px;
+}
+
+#e_mail{
+  display: flex;
+  width: 500px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.e_mailok{
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+/*비밀번호 입력*/
+
+#join_pw{
+  display: flex;
+  width: 500px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+/*비밀번호 한 번 더 확인*/
+#join_pw_one{
+  display: flex;
+  width: 500px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+/*이름 입력*/
+#join_name{
+  display: flex;
+  width: 500px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+/*닉네임 입력*/
+#join_n_name{
+  display: flex;
+  width: 500px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+/*휴대폰번호 입력*/
+#join_number{
+  display: flex;
+  width: 500px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+/* 성별 입력*/
+.join_gender{
+  display: flex;
+  width: 500px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+#gender{
+  display: flex;
+  width: 50px;
+  height: 27px;
+}
+
+/*생일*/
+#join_birth{
+  display: flex;
+  width: 500px;
+  height: 40px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.mem_line2{
+  background-color: black;
+  height: 1px;
+  width: 100%;
+}
+
+
+footer{
+  background-color: blanchedalmond;
+  width: 1060px;
+ height: 70px;
+ margin: auto;
+}
