@@ -1,5 +1,5 @@
 * {
-  /* margin: 15px 0; */
+  margin: 0;
   padding: 0;
 }
 
@@ -201,6 +201,7 @@ li {
 .info-bg2 .bottom-list a {
   color: #505050;
   border: 1px solid #ccc;
+  
   box-sizing: border-box;
   width: 30px;
   font-size: 12px;

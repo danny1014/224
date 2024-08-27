@@ -1,5 +1,5 @@
 *{
-  margin: 15px 0;
+  margin: 0;
   padding: 0;
 }
 
@@ -9,24 +9,28 @@ main {
   justify-content: center; 
   align-items: center; 
   background-color: rgb(231, 255, 230);
+  margin: 15px 0;
 }
 
 /* 전체 박스 */
 .my-passcheckBox{
   display: flex;
   gap: 20px;
+  margin: 15px 0;
 }
 
 /* 메인 왼쪽 박스 */
 .my-leftbox{
   width: 350px;
   height: 700px;
+  margin: 15px 0;
 }
 
 /* 메인 오른쪽 박스 */
 .my-rightbox{
   width: 650px;
   height: 700px;
+  margin: 15px 0;
 }
 
 /* 메인 왼쪽 환영메세지 박스 */
@@ -39,6 +43,7 @@ main {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  margin: 15px 0;
 }
 
 /* 환영메시지 인삿말 */
@@ -47,6 +52,7 @@ main {
   font-size: 16px;
   font-weight: bold;
   color: green;
+  margin: 15px 0;
 }
 
 /* 환영메세지 닉네임 */
@@ -54,6 +60,7 @@ main {
   background-color: white;
   font-size: 16px;
   font-weight: bold;
+  margin: 15px 0;
 }
 
 /* 목록 박스 */
@@ -63,6 +70,7 @@ main {
   height: 70%;
   border-radius: 15px;
   padding: 20px;
+  margin: 15px 0;
 }
 
 /* 구분선 */
@@ -77,6 +85,7 @@ main {
 .my-category-menu{
   background-color: white;
   font-size: 16px;
+  margin: 15px 0;
 }
 
 /* ============================================= */
@@ -91,6 +100,7 @@ main {
   padding: 20px;
   display: flex;
   flex-direction: column;
+  margin: 15px 0;
 }
 
 /* 제목 : 개인 정보 수정 */
@@ -98,6 +108,7 @@ main {
   background-color: white;
   font-size: 24px;
   font-weight: bold;
+  margin: 15px 0;
 }
 
 /* 부제목 : 비밀번호확인 */
@@ -106,6 +117,7 @@ main {
   font-size: 24px;
   font-weight: bold;
   color: gray;
+  margin: 15px 0;
 }
 
 /* 비밀번호확인 안내메세지 */
@@ -113,6 +125,7 @@ main {
   background-color: white;
   font-size: 16px;
   color: gray;
+  margin: 15px 0;
 }
 
 /* 비밀번호 확인 가운데 영역 */
@@ -121,12 +134,14 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 15px 0;
 }
 
 .my-passchek-category{
   background-color: white;
   display: flex;
   align-items: center;
+  margin: 15px 0;
 }
 
 /* id입력 input박스 */
@@ -136,6 +151,7 @@ main {
   height: 50px;
   border-radius: 15px;
   border: 1px solid black;
+  margin: 15px 0;
 }
 
 /* password입력 input박스 */
@@ -145,6 +161,7 @@ main {
   height: 50px;
   border-radius: 15px;
   border: 1px solid black;
+  margin: 15px 0;
 }
 
 .my-passcheck-menu{ 
@@ -153,6 +170,7 @@ main {
   height: 20px;
   align-content: center;
   font-size: 16px;
+  margin: 15px 0;
 }
 
 
@@ -168,6 +186,7 @@ main {
   width: 120px;
   height: 50px;
   font-size: 16px;
+  margin: 15px 0;
 }
 
 a {
