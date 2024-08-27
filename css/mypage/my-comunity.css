@@ -1,0 +1,238 @@
+*{
+  margin: 15px 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center; 
+  align-items: center; 
+  background-color: rgb(231, 255, 230);
+  height: auto;
+}
+
+/* 전체 박스 */
+.my-comunityBox{
+  display: flex;
+  gap: 20px;
+}
+
+
+/* 메인 왼쪽 박스 */
+.my-leftbox{
+  width: 350px;
+  height: 700px;
+}
+
+/* 메인 오른쪽 박스 */
+.my-rightbox{
+  width: 650px;
+  height: 1400px;
+}
+
+/* 메인 왼쪽 환영메세지 박스 */
+.my-hello{
+  background-color: white;
+  width: 350px;
+  height: 130px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* 환영메시지 인삿말 */
+.my-wellcome{
+  background-color: white;
+  font-size: 16px;
+  font-weight: bold;
+  color: green;
+}
+
+/* 환영메세지 닉네임 */
+.my-nickname{
+  background-color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* 목록 박스 */
+.my-category{
+  background-color: white;
+  max-width: 350px;
+  height: 70%;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+/* 구분선 */
+.my-line{
+  background-color: black;
+  height: 1px;
+  width: 95%;
+  margin: 0;
+}
+
+/* 마이페이지 목록 상세 */
+.my-category-menu{
+  background-color: white;
+  font-size: 16px;
+}
+
+/* ============================================= */
+
+
+/* 찜목록확인 박스 */
+.my-comunity{
+  background-color: white;
+  max-width: 650px;
+  height: 700px;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 제목 : 게시글 조회 */
+.my-comunity-title{
+  background-color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* 게시글 표시 영역 */
+.my-comunity-center{
+  background-color: white;
+  width: 600px;
+  height: 700px;
+}
+
+/* 게시글 최상단 박스 크기(제목,작성자,날짜) */
+.my-comunity-info{
+  background-color: white;
+  border-top: 2px solid black;
+  border-bottom: 1px solid gainsboro;
+  width: 580px;
+  height: 40px;
+  margin: 0;
+  display: flex;
+}
+
+/* 검색된 게시글 박스 크기 */
+.my-comunity-info-list{
+  background-color: white;
+  border-bottom: 1px solid gainsboro;
+  width: 580px;
+  height: 40px;
+  margin: 0;
+  display: flex;
+  align-content: center;
+}
+
+/* 게시글 제목 */
+.my-comunity-info-title{
+  background-color: white;
+  width: 350px;
+  height: 40px;
+  margin: 0;
+  text-align: center;
+  align-content: center;
+}
+
+/* 게시글 작성자 */
+.my-comunity-info-author{
+  background-color: white;
+  width: 150px;
+  height: 40px;
+  margin: 0;
+  text-align: center;
+  align-content: center;
+}
+
+/* 게시글 작성날짜 */
+.my-comunity-info-date{
+  background-color: white;
+  width: 150px;
+  height: 40px;
+  margin: 0;
+  text-align: center;
+  align-content: center;
+}
+
+
+ul{
+  margin: 0;
+}
+
+li{
+  display: flex;
+  margin: 0;
+}
+
+/* 페이지네이션 */
+.info-bg2 .bottom-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.info-bg2 .bottom-list .prev {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.info-bg2 .bottom-list a {
+  color: #505050;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  width: 30px;
+  font-size: 12px;
+  height: 30px;
+  margin-right: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.info-bg2 .bottom-list a.on {
+  font-weight: bold;
+  color: #ff7864;
+  background: #fff6f4;
+}
+
+.info-bg2 .bottom-list .prev {
+  content: '';
+  background: url('../../images/prev.png') no-repeat center;
+  display: inline-block;
+  background-size: contain;
+  width: 6px;
+  height: 10px;
+}
+
+.info-bg2 .bottom-list .next {
+  content: '';
+  background: url('../../images/next.png') no-repeat center;
+  display: inline-block;
+  background-size: contain;
+  width: 6px;
+  height: 10px;
+}
+li::marker {
+  display: none;
+}
+li::marker {
+  content: '';
+}
+
+a {
+  color: black; 
+  text-decoration: none; 
+}
+
+a:visited {
+  color: black;
+}
