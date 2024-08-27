@@ -1,10 +1,10 @@
 // 수정모달
 function openModal() {
-  document.getElementById('myModal').style.display = 'block';
+  document.getElementById('notice-myModal').style.display = 'block';
 }
 
 function closeModal() {
-  document.getElementById('myModal').style.display = 'none';
+  document.getElementById('notice-myModal').style.display = 'none';
 }
 
 function goToPage() {
@@ -12,7 +12,7 @@ function goToPage() {
 }
 // 모달 외부 클릭 시 닫기
 window.onclick = function (event) {
-  const modal = document.getElementById('myModal');
+  const modal = document.getElementById('notice-myModal');
   if (event.target == modal) {
     closeModal();
   }
@@ -20,7 +20,7 @@ window.onclick = function (event) {
 
 // j쿼리 사용한  삭제모달창
 $(document).ready(function() {
-  const $modal = $('#deleteModal');
+  const $modal = $('#notice-deleteModal');
 
   // 삭제 모달 열기
   window.openDeleteModal = function() {
