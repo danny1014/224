@@ -1,4 +1,8 @@
 /* 헤더 */
+body {
+  margin: 0;
+}
+
 .header-section {
   /* border: 1px solid red; */
   background-color: white;
@@ -9,6 +13,9 @@
 }
 
 .header-fixed {
+  width: 100%;
+  background-color: white;
+  height: 90px;
   position: fixed;
   z-index: 1000;
 }
@@ -162,4 +169,5 @@
 .dropdown:hover .dropdown-content{
   display: block;
   align-items: center;
+  z-index: 1000;
 } 

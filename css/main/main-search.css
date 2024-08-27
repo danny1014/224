@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.results_board {
+  max-width: 800px;
+  margin: 30px auto;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.top_title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+}
+
+.conts {
+  margin-top: 15px;
+}
+
+.content {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.content:last-child {
+  border-bottom: none;
+}
+
+.title a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #0073e6;
+}
+
+.title a:hover {
+  text-decoration: underline;
+}
+
+.comment-cnt {
+  font-size: 12px;
+  color: #666;
+  margin-left: 5px;
+}
+
+.content p a {
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+}
+
+.content p a:hover {
+  color: #000;
+}
+
+.desc {
+  font-size: 12px;
+  color: #888;
+  margin-top: 3px;
+}
+
+.desc span {
+  margin-right: 8px;
+}
+
+.desc .like {
+  color: #e60000;
+}
+
+.more-button {
+  display: block;
+  width: 100px;
+  margin: 20px 0 0 auto;  /* 오른쪽 정렬 */
+  padding: 10px 15px;
+  text-align: center;
+  background-color: #2bcf81;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.more-button:hover {
+  background-color: #005bb5;
+}
+
+.info-bg2 .bottom-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.info-bg2 .bottom-list .prev {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.info-bg2 .bottom-list a {
+  color: #505050;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  width: 30px;
+  font-size: 12px;
+  height: 30px;
+  margin-right: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.info-bg2 .bottom-list a.on {
+  font-weight: bold;
+  color: #ff7864;
+  background: #fff6f4;
+}
+
+.info-bg2 .bottom-list .prev {
+  content: '';
+  background: url('../../images/prev.png') no-repeat center;
+  display: inline-block;
+  background-size: contain;
+  width: 6px;
+  height: 10px;
+}
+
+.info-bg2 .bottom-list .next {
+  content: '';
+  background: url('../../images/next.png') no-repeat center;
+  display: inline-block;
+  background-size: contain;
+  width: 6px;
+  height: 10px;
+}
