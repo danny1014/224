@@ -94,7 +94,7 @@ main {
 /* ============================================= */
 
 
-/* 찜목록확인 박스 */
+/* 게시글 확인 박스 */
 .my-comunity {
   background-color: white;
   max-width: 650px;
@@ -142,7 +142,6 @@ main {
   margin: 0;
   display: flex;
   align-content: center;
-  margin: 15px 0;
 }
 
 /* 게시글 제목 */
