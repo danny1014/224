@@ -168,5 +168,5 @@ body {
 .dropdown:hover .dropdown-content{
   display: block;
   align-items: center;
-  z-index: 1000;
+  z-index: 500;
 } 
