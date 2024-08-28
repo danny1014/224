@@ -205,18 +205,19 @@ main{
   /* width: 600px; */
 }
 
-.mem-term_box::-webkit-scrollbar {
+/*스크롤바 */
+.mem-term-box::-webkit-scrollbar {
   width: 20px;
 }
 
-.mem-term_box::-webkit-scrollbar-thumb {
+.mem-term-box::-webkit-scrollbar-thumb {
   border: 6px solid white;
   height: 40px;
   background: #2BCF81;
   border-radius: 10px;
 }
 
-.mem-term_box::-webkit-scrollbar-track {
+.mem-term-box::-webkit-scrollbar-track {
   border-radius: 10px;
   background-color: transparent;
 }
