@@ -89,6 +89,12 @@ main{
   background-color: #2BCF81;
 }
 
+a{
+  color: black;
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
 footer{
   background-color: blanchedalmond;
   width: 1060px;
