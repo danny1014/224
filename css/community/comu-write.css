@@ -95,11 +95,11 @@ h1, h2, h3, h4, h5, h6 {
 ul {
   display: block;
   list-style-type: none;
-  margin-block-start: 1em;
+  /* margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  padding-inline-start: 10px;
+  padding-inline-start: 10px; */
   unicode-bidi: isolate;
   list-style-type: none;
 }
@@ -230,7 +230,7 @@ tr {
   height: 50px;
 }
 
-#comu-submit{
+.comu-submit{
   background-color: #0AC200;
   width: 100px;
   height: 40px;
@@ -269,7 +269,7 @@ tr {
 }
 
 .comu-comment-rewrite-submit{
-  background-color: #0AC200;
+  background-color: #2BCF81;
   width: 100px;
   height: 30px;
   font-size: 15px;
