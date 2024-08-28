@@ -32,7 +32,7 @@ main {
 /* 메인 오른쪽 박스 */
 .my-rightbox{
   width: 650px;
-  height: 1400px;
+  height: auto;
   margin: 15px 0;
 }
 

@@ -32,7 +32,7 @@ main {
 /* 메인 오른쪽 박스 */
 .my-rightbox {
   width: 650px;
-  height: 1400px;
+  height: auto;
   margin: 15px 0;
 }
 
@@ -174,15 +174,6 @@ main {
   align-content: center;
 }
 
-
-ul {
-  margin: 0;
-}
-
-li {
-  display: flex;
-  margin: 0;
-}
 
 /* 페이지네이션 */
 .info-bg2 .bottom-list {
