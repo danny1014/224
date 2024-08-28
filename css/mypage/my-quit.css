@@ -185,3 +185,8 @@ a {
 a:visited {
   color: black;
 }
+
+/* 경고메세지 숨기기 */
+.my-quit-result {
+  display: none;
+}

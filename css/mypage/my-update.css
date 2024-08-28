@@ -211,3 +211,7 @@ a {
 a:visited {
   color: black;
 }
+
+.my-update-passcheck{
+  display: none;
+}
