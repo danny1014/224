@@ -231,7 +231,7 @@ tr {
 }
 
 .comu-submit{
-  background-color: #0AC200;
+  background-color: #2BCF81;
   width: 100px;
   height: 40px;
   font-size: 15px;
@@ -248,7 +248,7 @@ tr {
 }
 
 .comu-member-rewrite-contents-button{
-  background-color: #0AC200;
+  background-color: #2BCF81;
   width: 60px;
   height: 27px;
   font-size: 15px;
@@ -264,7 +264,7 @@ tr {
 }
 
 .comu-comment-rewrite-input{
-  width: 300px;
+  width: 400px;
   /* height: 50px; */
 }
 
