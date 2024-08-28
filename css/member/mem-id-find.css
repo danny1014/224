@@ -63,6 +63,23 @@ main{
   border-radius: 10px;
 }
 
+/*휴대폰번호 인증 */
+.p-find-number{
+  font-size: 16px;
+  margin-left: -270px;
+  margin-bottom: -2px;
+  margin-top: 10px;
+}
+
+#p-find-number{
+  width: 330px;
+  height: 50px;
+  background-color:white;
+  border-radius: 10px;
+}
+
+
+
 .login-ok{
   width: 330px;
   height: 50px;
