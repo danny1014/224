@@ -9,144 +9,156 @@
   <link rel="stylesheet" href="../../css/main/main.css">
   <link rel="stylesheet" href="../../css/main/footer.css">
 </head>
-
+<header>
+  <section class="header-section">
+    <div class="header-fixed">
+      <ul class="header-list">
+        <li>
+          <!-- 메인 로고 -->
+          <div id="header-img-0"><a href="#"><img src="../../images/logo-224-1.png" alt="로고"></a></div>
+          <div id="header-img-1"><a href="#"><img src="../../images/logo-224-0.png" alt="로고"></a></div>
+        </li>
+        <li>
+          <!-- 메인 검색창 -->
+          <div class="header-search">
+            <div id="header-search-frame"><a href="#"><img src="../../images/main-search.png"></a></div>
+            <!-- <input id="search" type="text" placeholder="검색하세요"> -->
+          </div>
+        </li>
+        <li>
+          <!-- 로그인 및 회원가입 버튼 -->
+          <div id="header-weather"><a href="#"><img src="../../images/weather.jpg"></a></div>
+          <div id="header-login-join-btn">
+            <h5>로그인 및 회원가입</h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section>
+    <!-- 메인 메뉴 드롭다운-->
+    <div id="dropdown-container">
+      <div class="dropdown">
+        <!-- 2호선폭폭 -->
+        <div class="dropdown-menu"><img src="../../images/line-icon.png"></div>
+        <div class="dropdown-menu-txt">2호선폭폭</div>
+        <div class="dropdown-content">
+          <ul class="dropdown-subway">
+            <li>
+              <div class="dropdown-line"></div>
+            </li>
+            <li><a href="#">2호선폭폭</a></li>
+            <li><a href="#">2호선 노선도</a></li>
+            <li><a href="#">2호선 배차시간표</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- 핫플콕콕 -->
+      <div class="dropdown">
+        <div class="dropdown-menu"><img src="../../images/hotplace-icon.png"></div>
+        <div class="dropdown-menu-txt">핫플콕콕</div>
+        <div class="dropdown-content">
+          <ul class="dropdown-hot">
+            <li>
+              <div class="dropdown-line"></div>
+            </li>
+            <li><a href="#">핫플콕콕</a></li>
+            <li><a href="#">강남역</a></li>
+            <li><a href="#">잠실역</a></li>
+            <li><a href="#">성수역</a></li>
+            <li><a href="#">문래역</a></li>
+            <li><a href="#">홍대입구역</a></li>
+            <li><a href="#">을지로입구역</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- 편의공공 -->
+      <div class="dropdown">
+        <div class="dropdown-menu"><img src="../../images/convenience-icon.png"></div>
+        <div class="dropdown-menu-txt">편의공공</div>
+        <div class="dropdown-content">
+          <ul class="dropdown-conv">
+            <li>
+              <div class="dropdown-line"></div>
+            </li>
+            <li><a href="#">편의공공</a></li>
+            <li><a href="#">물품보관함</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- 커뮤톡톡 -->
+      <div class="dropdown">
+        <div class="dropdown-menu"><img src="../../images/community-icon.png"></div>
+        <div class="dropdown-menu-txt">커뮤톡톡</div>
+        <div class="dropdown-content">
+          <ul class="dropdown-comu">
+            <li>
+              <div class="dropdown-line"></div>
+            </li>
+            <li><a href="#">커뮤톡톡</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- 공지쏙쏙 -->
+      <div class="dropdown">
+        <div class="dropdown-menu"><img src="../../images/notice-icon.png"></div>
+        <div class="dropdown-menu-txt">공지쏙쏙</div>
+        <div class="dropdown-content">
+          <ul class="dropdown-notice">
+            <li>
+              <div class="dropdown-line"></div>
+            </li>
+            <li><a href="#">공지쏙쏙</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</header>
 <body>
-  <header>
-    <section class="header-section">
-      <div class="header-fixed">
-        <ul class="header-list">
-          <li>
-            <!-- 메인 로고 -->
-            <div id="header-img-0"><a href="#"><img src="../../images/logo-224-1.png" alt="로고"></a></div>
-            <div id="header-img-1"><a href="#"><img src="../../images/logo-224-0.png" alt="로고"></a></div>
-          </li>
-          <li>
-            <!-- 메인 검색창 -->
-            <div class="header-search">
-              <div id="header-search-frame"><a href="#"><img src="../../images/main-search.png"></a></div>
-              <!-- <input id="search" type="text" placeholder="검색하세요"> -->
-            </div>
-          </li>
-          <li>
-            <!-- 로그인 및 회원가입 버튼 -->
-            <div id="header-weather"><a href="#"><img src="../../images/weather.jpg"></a></div>
-            <div id="header-login-join-btn">
-              <h5>로그인 및 회원가입</h5>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section>
-      <!-- 메인 메뉴 드롭다운-->
-      <div id="dropdown-container">
-        <div class="dropdown">
-          <!-- 2호선폭폭 -->
-          <div class="dropdown-menu"><img src="../../images/line-icon.png"></div>
-          <div class="dropdown-menu-txt">2호선폭폭</div>
-          <div class="dropdown-content">
-            <ul class="dropdown-subway">
-              <li>
-                <div class="dropdown-line"></div>
-              </li>
-              <li><a href="#">2호선폭폭</a></li>
-              <li><a href="#">2호선 노선도</a></li>
-              <li><a href="#">2호선 배차시간표</a></li>
-            </ul>
-          </div>
-        </div>
-        <!-- 핫플콕콕 -->
-        <div class="dropdown">
-          <div class="dropdown-menu"><img src="../../images/hotplace-icon.png"></div>
-          <div class="dropdown-menu-txt">핫플콕콕</div>
-          <div class="dropdown-content">
-            <ul class="dropdown-hot">
-              <li>
-                <div class="dropdown-line"></div>
-              </li>
-              <li><a href="#">핫플콕콕</a></li>
-              <li><a href="#">강남역</a></li>
-              <li><a href="#">잠실역</a></li>
-              <li><a href="#">성수역</a></li>
-              <li><a href="#">문래역</a></li>
-              <li><a href="#">홍대입구역</a></li>
-              <li><a href="#">을지로입구역</a></li>
-            </ul>
-          </div>
-        </div>
-        <!-- 편의공공 -->
-        <div class="dropdown">
-          <div class="dropdown-menu"><img src="../../images/convenience-icon.png"></div>
-          <div class="dropdown-menu-txt">편의공공</div>
-          <div class="dropdown-content">
-            <ul class="dropdown-conv">
-              <li>
-                <div class="dropdown-line"></div>
-              </li>
-              <li><a href="#">편의공공</a></li>
-              <li><a href="#">물품보관함</a></li>
-            </ul>
-          </div>
-        </div>
-        <!-- 커뮤톡톡 -->
-        <div class="dropdown">
-          <div class="dropdown-menu"><img src="../../images/community-icon.png"></div>
-          <div class="dropdown-menu-txt">커뮤톡톡</div>
-          <div class="dropdown-content">
-            <ul class="dropdown-comu">
-              <li>
-                <div class="dropdown-line"></div>
-              </li>
-              <li><a href="#">커뮤톡톡</a></li>
-            </ul>
-          </div>
-        </div>
-        <!-- 공지쏙쏙 -->
-        <div class="dropdown">
-          <div class="dropdown-menu"><img src="../../images/notice-icon.png"></div>
-          <div class="dropdown-menu-txt">공지쏙쏙</div>
-          <div class="dropdown-content">
-            <ul class="dropdown-notice">
-              <li>
-                <div class="dropdown-line"></div>
-              </li>
-              <li><a href="#">공지쏙쏙</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-  </header>
+
 
   <!--역 둘러보기 선택 영역-->
   <section class="main-section-first">
     <div class="main-station">
       <div class="main-slide-btn">
-        <button id="main-slide-left" onclick="prevImage()"><</button>
-        <button id="main-slide-right" onclick="nextImage()">></button>
+        <button id="main-slide-left" onclick="prevItem()"><</button>
+        <button id="main-slide-right" onclick="nextItem()">></button>
       </div>
-      <ul>
-        <li>
-          <a href="#"><img id="main-slider-image" src="../../images/1.png">
+      <ul id="main-slider-list">
+        <li id="main-slider-one">
+          <a href="#"><img src="../../images/1.png">
             <h2>강남역</h2>
             <div id="main-station-btn">둘러보기</div>
           </a>
         </li>
-        <li>
-          <a href="#"><img id="main-slider-image" src="../../images/2.png">
+        <li id="main-slider-two">
+          <a href="#"><img src="../../images/2.png">
             <h2>잠실역</h2>
             <div id="main-station-btn">둘러보기</div>
           </a>
         </li>
-        <li>
-          <a href="#"><img id="main-slider-image" src="../../images/3.png">
+        <li id="main-slider-three">
+          <a href="#"><img src="../../images/3.png">
             <h2>홍대입구역</h2>
             <div id="main-station-btn">둘러보기</div>
           </a>
         </li>
-        <li>
-          <a href="#"><img id="main-slider-image" src="../../images/4.png">
+        <li id="main-slider-four">
+          <a href="#"><img src="../../images/4.png">
             <h2>성수역</h2>
+            <div id="main-station-btn">둘러보기</div>
+          </a>
+        </li>
+        <li id="main-slider-five">
+          <a href="#"><img src="../../images/5.png">
+            <h2>문래역</h2>
+            <div id="main-station-btn">둘러보기</div>
+          </a>
+        </li>
+        <li id="main-slider-six">
+          <a href="#"><img src="../../images/6.png">
+            <h2>을지로입구역</h2>
             <div id="main-station-btn">둘러보기</div>
           </a>
         </li>
@@ -194,32 +206,171 @@
         </li>
       </ul>
     </div>
-    <div class="prev" aria-label="Previous Slide">
-      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M15 19l-7-7 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-          stroke-linejoin="round" />
-      </svg>
-    </div>
-    <div class="next" aria-label="Next Slide">
-      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-          stroke-linejoin="round" />
-      </svg>
-    </div>
     </div>
     </div>
   </section>
 
-  <!-- 핫플콕콕 -->
+  <!-- 핫플콕콕 첫번째줄-->
   <section class="main-section-third">
+    <div id="main-third-title">핫플콕콕!</div>
+    <section class="main-section-third-top">
+      <div class="main-section-btn">
+        <button id="main-section-left" onclick="prevContent()"><</button>
+        <button id="main-section-right" onclick="nextContent()">></button>
+      </div>
+      <ul id="main-hot">
+        <li id="main-hot-list">
+          <a href="#">
+            <img id="main-hot-img" src="../../images/1.png">
+            <img id="main-picked" src="../../images/pick.png" alt="">
+            <p id="main-hot-title">asd</p>
+            <p id="main-hot-txt">asdasdadadasdas<br>asdasdadadasdas</p>
+          </a>
+        </li>
+        <li id="main-hot-list">
+          <a href="#">
+            <img id="main-hot-img" src="../../images/2.png">
+            <img id="main-picked" src="../../images/picked.png" alt="">
+            <p id="main-hot-title">asd</p>
+            <p id="main-hot-txt">asdasdadadasdas<br>asdasdadadasdas</p>
+          </a>
+        </li>
+        <li id="main-hot-list">
+          <a href="#">
+            <img id="main-hot-img" src="../../images/3.png">
+            <img id="main-picked" src="../../images/pick.png" alt="">
+            <p id="main-hot-title">asd</p>
+            <p id="main-hot-txt">asdasdadadasdas<br>asdasdadadasdas</p>
+          </a>
+        </li>
+        <li id="main-hot-list">
+          <a href="#">
+            <img id="main-hot-img" src="../../images/4.png">
+            <img id="main-picked" src="../../images/pick.png" alt="">
+            <p id="main-hot-title">asd</p>
+            <p id="main-hot-txt">asdasdadadasdas<br>asdasdadadasdas</p>
+          </a>
+        </li>
+        <li id="main-hot-list">
+          <a href="#">
+            <img id="main-hot-img" src="../../images/4.png">
+            <img id="main-picked" src="../../images/pick.png" alt="">
+            <p id="main-hot-title">asd</p>
+            <p id="main-hot-txt">asdasdadadasdas<br>asdasdadadasdas</p>
+          </a>
+        </li>
+        <li id="main-hot-list">
+          <a href="#">
+            <img id="main-hot-img" src="../../images/3.png">
+            <img id="main-picked" src="../../images/pick.png" alt="">
+            <p id="main-hot-title">asd</p>
+            <p id="main-hot-txt">asdasdadadasdas<br>asdasdadadasdas</p>
+          </a>
+        </li>
+        <li id="main-hot-list">
+          <a href="#">
+            <img id="main-hot-img" src="../../images/2.png">
+            <img id="main-picked" src="../../images/picked.png" alt="">
+            <p id="main-hot-title">asd</p>
+            <p id="main-hot-txt">asdasdadadasdas<br>asdasdadadasdas</p>
+          </a>
+        </li>
+        <li id="main-hot-list">
+          <a href="#">
+            <img id="main-hot-img" src="../../images/1.png">
+            <img id="main-picked" src="../../images/pick.png" alt="">
+            <p id="main-hot-title">asd</p>
+            <p id="main-hot-txt">asdasdadadasdas<br>asdasdadadasdas</p>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- 핫플콕콕 두번째줄 -->
+    <section class="main-section-third-bottom">
+      <div class="main-section-btn">
+        <button id="main-section-left" onclick="prevBox()"><</button>
+        <button id="main-section-right" onclick="nextBox()">></button>
+      </div>
+      <ul id="main-hot-two">
+        <li id="main-hot-list">
+          <a href="#">
+            <img id="main-hot-img" src="../../images/1.png">
+            <img id="main-picked" src="../../images/pick.png" alt="">
+            <p id="main-hot-title">asd</p>
+            <p id="main-hot-txt">asdasdadadasdas<br>asdasdadadasdas</p>
+          </a>
+        </li>
+        <li id="main-hot-list">
+          <a href="#">
+            <img id="main-hot-img" src="../../images/2.png">
+            <img id="main-picked" src="../../images/picked.png" alt="">
+            <p id="main-hot-title">asd</p>
+            <p id="main-hot-txt">asdasdadadasdas<br>asdasdadadasdas</p>
+          </a>
+        </li>
+        <li id="main-hot-list">
+          <a href="#">
+            <img id="main-hot-img" src="../../images/3.png">
+            <img id="main-picked" src="../../images/picked.png" alt="">
+            <p id="main-hot-title">asd</p>
+            <p id="main-hot-txt">asdasdadadasdas<br>asdasdadadasdas</p>
+          </a>
+        </li>
+        <li id="main-hot-list">
+          <a href="#">
+            <img id="main-hot-img" src="../../images/4.png">
+            <img id="main-picked" src="../../images/pick.png" alt="">
+            <p id="main-hot-title">asd</p>
+            <p id="main-hot-txt">asdasdadadasdas<br>asdasdadadasdas</p>
+          </a>
+        </li>
+        <li id="main-hot-list">
+          <a href="#">
+            <img id="main-hot-img" src="../../images/4.png">
+            <img id="main-picked" src="../../images/picked.png" alt="">
+            <p id="main-hot-title">asd</p>
+            <p id="main-hot-txt">asdasdadadasdas<br>asdasdadadasdas</p>
+          </a>
+        </li>
+        <li id="main-hot-list">
+          <a href="#">
+            <img id="main-hot-img" src="../../images/3.png">
+            <img id="main-picked" src="../../images/pick.png" alt="">
+            <p id="main-hot-title">asd</p>
+            <p id="main-hot-txt">asdasdadadasdas<br>asdasdadadasdas</p>
+          </a>
+        </li>
+        <li id="main-hot-list">
+          <a href="#">
+            <img id="main-hot-img" src="../../images/2.png">
+            <img id="main-picked" src="../../images/picked.png" alt="">
+            <p id="main-hot-title">asd</p>
+            <p id="main-hot-txt">asdasdadadasdas<br>asdasdadadasdas</p>
+          </a>
+        </li>
+        <li id="main-hot-list">
+          <a href="#">
+            <img id="main-hot-img" src="../../images/1.png">
+            <img id="main-picked" src="../../images/pick.png" alt="">
+            <p id="main-hot-title">asd</p>
+            <p id="main-hot-txt">asdasdadadasdas<br>asdasdadadasdas</p>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </section>
+
+  <!-- 광고 -->
+  <section class="main-section-fourth">
 
   </section>
-  <!-- 푸터 -->
-  <footer>
-    <h6>(06236)서울특별시 강남구 테헤란로 146, 신한은행 건물 (3층) | 대표이사 강수정 김규열 김민채 신승민 이기철 정시우 | 회사업자등록번호104-81-4522690 |<br>
+</body>
+<!-- 푸터 -->
+<footer>
+  <h6>(06236)서울특별시 강남구 테헤란로 146, 신한은행 건물 (3층) | 대표이사 강수정 김규열 김민채 신승민 이기철 정시우 | 회사업자등록번호104-81-4522690 |<br>
       통신판매업신고번호 2017-서울용산-066 | 사업자정보확인호스팅사업자 NT넥스트레벨 대표이메일 nextlevel-224@next.com<br>
       © NEXT LEVEL. All Rights Reserved</h6>
-  </footer>
-</body>
+</footer>
 <script src="../../js/main/main.js"></script>
 </html>
