@@ -1,15 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>로그인</title>
   <link rel="stylesheet" href="../../css/member/mem-login.css">
   <script defer src="../../js/member/mem-login.js"></script>
+  <link rel="stylesheet" href="../../css/main/header.css">
+  <link rel="stylesheet" href="../../css/main/footer.css">
 </head>
-<body>
-  <header>
 
+<body>
+   <!-- 헤더 -->
+   <header>
+    <section class="header-section">
+      <div class="header-fixed">
+        <ul class="header-list">
+          <li>
+            <!-- 메인 로고 -->
+            <div id="header-img-0"><a href="#"><img src="../../images/logo-224-1.png" alt="로고"></a></div>
+            <div id="header-img-1"><a href="#"><img src="../../images/logo-224-0.png" alt="로고"></a></div>
+          </li>
+          <li>
+            <!-- 메인 검색창 -->
+            <div class="header-search">
+              <div id="header-search-frame"><a href="#"><img src="../../images/main-search.png"></a></div>
+              <!-- <input id="search" type="text" placeholder="검색하세요"> -->
+            </div>
+          </li>
+          <li>
+            <!-- 로그인 및 회원가입 버튼 -->
+            <div id="header-weather"><a href="#"><img src="../../images/weather.jpg"></a></div>
+            <div id="header-login-join-btn">
+              <h5>로그인 및 회원가입</h5>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <!-- 메인 메뉴 드롭다운-->
+      <div id="dropdown-container">
+        <div class="dropdown">
+          <!-- 2호선폭폭 -->
+          <div class="dropdown-menu"><img src="../../images/line-icon.png"></div>
+          <div class="dropdown-menu-txt">2호선폭폭</div>
+          <div class="dropdown-content">
+            <ul class="dropdown-subway">
+              <li>
+                <div class="dropdown-line"></div>
+              </li>
+              <li><a href="#">2호선폭폭</a></li>
+              <li><a href="#">2호선 노선도</a></li>
+              <li><a href="#">2호선 배차시간표</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- 핫플콕콕 -->
+        <div class="dropdown">
+          <div class="dropdown-menu"><img src="../../images/hotplace-icon.png"></div>
+          <div class="dropdown-menu-txt">핫플콕콕</div>
+          <div class="dropdown-content">
+            <ul class="dropdown-hot">
+              <li>
+                <div class="dropdown-line"></div>
+              </li>
+              <li><a href="#">핫플콕콕</a></li>
+              <li><a href="#">강남역</a></li>
+              <li><a href="#">잠실역</a></li>
+              <li><a href="#">성수역</a></li>
+              <li><a href="#">문래역</a></li>
+              <li><a href="#">홍대입구역</a></li>
+              <li><a href="#">을지로입구역</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- 편의공공 -->
+        <div class="dropdown">
+          <div class="dropdown-menu"><img src="../../images/convenience-icon.png"></div>
+          <div class="dropdown-menu-txt">편의공공</div>
+          <div class="dropdown-content">
+            <ul class="dropdown-conv">
+              <li>
+                <div class="dropdown-line"></div>
+              </li>
+              <li><a href="#">편의공공</a></li>
+              <li><a href="#">물품보관함</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- 커뮤톡톡 -->
+        <div class="dropdown">
+          <div class="dropdown-menu"><img src="../../images/community-icon.png"></div>
+          <div class="dropdown-menu-txt">커뮤톡톡</div>
+          <div class="dropdown-content">
+            <ul class="dropdown-comu">
+              <li>
+                <div class="dropdown-line"></div>
+              </li>
+              <li><a href="#">커뮤톡톡</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- 공지쏙쏙 -->
+        <div class="dropdown">
+          <div class="dropdown-menu"><img src="../../images/notice-icon.png"></div>
+          <div class="dropdown-menu-txt">공지쏙쏙</div>
+          <div class="dropdown-content">
+            <ul class="dropdown-notice">
+              <li>
+                <div class="dropdown-line"></div>
+              </li>
+              <li><a href="#">공지쏙쏙</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
   </header>
   <main>
     <div class="login">
@@ -17,21 +125,35 @@
       <form>
         <div class="container">
           <div class="id">아이디</div>
-          <input type="text" id="id" placeholder="&nbsp;&nbsp;아이디를 입력하세요">
+          <div class="input-field">
+            <input type="text" id="username" placeholder="&nbsp;&nbsp;아이디를 입력하세요">
+            <div class="login-input-border"></div>
+          </div>
+          <div class="error-message" id="error-message"></div>
+
           <div class="pw">비밀번호</div>
-          <input type="text" id="pw" placeholder="&nbsp;&nbsp;비밀번호를 입력하세요">
-          <button class="login-bt"><a href="../../html/main/main.html"> 로그인</a></button>
+          <div class="input-field">
+            <input type="password" id="password" placeholder="&nbsp;&nbsp;비밀번호를 입력하세요">
+            <div class="login-input-border"></div>
+          </div>
+          <div class="error-message" id="error-message-pw"></div>
+          <button type="submit" class="login-bt">로그인</button>
+
           <ul class="find-id">
             <li><a href="../../html/member/mem-id-find.html">아이디 찾기</a></li>
             <li><a href="../../html/member/mem-pw-find.html">비밀번호 찾기</a></li>
           </ul>
-             <button class="login-join"><a href="../../html/member/mem-join.html">회원가입</a></button>
+
+          <button class="login-join"><a href="../../html/member/mem-join.html">회원가입</a></button>
         </div>
       </form>
     </div>
   </main>
   <footer>
-
+    <h6>(06236)서울특별시 강남구 테헤란로 146, 신한은행 건물 (3층) | 대표이사 강수정 김규열 김민채 신승민 이기철 정시우 | 회사업자등록번호104-81-4522690 |<br>
+      통신판매업신고번호 2017-서울용산-066 | 사업자정보확인호스팅사업자 NT넥스트레벨 대표이메일 nextlevel_224@next.com<br>
+      © NEXT LEVEL. All Rights Reserved</h6>
   </footer>
 </body>
+
 </html>
