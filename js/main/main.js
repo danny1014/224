@@ -1,24 +1,35 @@
-const images = [
-  '../../images/5.png',
-  '../../images/6.png'
-];
-
+const items = document.querySelectorAll('#main-slider-list li');
+const itemsPerPage = 4; // 한 번에 보여줄 항목 수
 let currentIndex = 0;
 
-function showImage(index) {
-  const sliderImage = document.getElementById('main-slider-image');
-  sliderImage.src = images[index];
+function showItems(startIndex) {
+    items.forEach((item, i) => {
+        if (i >= startIndex && i < startIndex + itemsPerPage) {
+            item.style.display = 'flex';
+        } else {
+            item.style.display = 'none';
+        }
+    });
 }
 
-function nextImage() {
-  currentIndex = (currentIndex + 1) % images.length;
-  showImage(currentIndex);
+function nextItem() {
+    currentIndex += itemsPerPage;
+    if (currentIndex >= items.length) {
+        currentIndex = 0; // 다시 처음으로 돌아감
+    }
+    showItems(currentIndex);
 }
 
-function prevImage() {
-  currentIndex = (currentIndex - 1 + images.length) % images.length;
-  showImage(currentIndex);
+function prevItem() {
+    currentIndex -= itemsPerPage;
+    if (currentIndex < 0) {
+        currentIndex = items.length - itemsPerPage; // 마지막 세트로 이동
+    }
+    showItems(currentIndex);
 }
+
+// 초기 항목을 보여줍니다.
+showItems(currentIndex);
 
 
 
@@ -100,3 +111,71 @@ document.addEventListener('DOMContentLoaded', () => {
     updateDots();
   }
 });
+
+//핫플콕콕
+const contents = document.querySelectorAll('#main-hot li');
+const contentsPerPage = 4; // 한 번에 보여줄 항목 수
+let currentPage = 0;
+
+function showContents(startContent) {
+  contents.forEach((content, n) => {
+        if (n >= startContent && n < startContent + contentsPerPage) {
+          content.style.display = 'flex';
+        } else {
+          content.style.display = 'none';
+        }
+    });
+}
+
+function nextContent() {
+    currentPage += contentsPerPage;
+    if (currentPage >= contents.length) {
+      currentPage = 0; // 다시 처음으로 돌아감
+    }
+    showContents(currentPage);
+}
+
+function prevContent() {
+    currentPage -= contentsPerPage;
+    if (currentPage < 0) {
+      currentPage = contents.length - contentsPerPage; // 마지막 세트로 이동
+    }
+    showContents(currentPage);
+}
+
+// 초기 항목을 보여줍니다.
+showContents(currentPage);
+
+//
+const boxes = document.querySelectorAll('#main-hot-two li');
+const boxesPerPage = 4; // 한 번에 보여줄 항목 수
+let currentBox = 0;
+
+function showBoxes(startBox) {
+  boxes.forEach((box, m) => {
+        if (m >= startBox && m < startBox + boxesPerPage) {
+          box.style.display = 'flex';
+        } else {
+          box.style.display = 'none';
+        }
+    });
+}
+
+function nextBox() {
+  currentBox += boxesPerPage;
+    if (currentBox >= boxes.length) {
+      currentBox = 0; // 다시 처음으로 돌아감
+    }
+    showBoxes(currentBox);
+}
+
+function prevBox() {
+  currentBox -= boxesPerPage;
+    if (currentBox < 0) {
+      currentBox = boxes.length - boxesPerPage; // 마지막 세트로 이동
+    }
+    showBoxes(currentBox);
+}
+
+// 초기 항목을 보여줍니다.
+showBoxes(currentBox);
