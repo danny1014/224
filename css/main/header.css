@@ -72,6 +72,10 @@ body {
 }
 
 /* 로그인 및 회원가입 버튼 */
+.main-login-btn a {
+  text-decoration: none;
+}
+
 #header-login-join-btn {
   background-color: #2BCF81;
   width: 140px;
