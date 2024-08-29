@@ -1,33 +1,50 @@
-const button = document.querySelector("button[type=button]");
-console.log(button);
-const id = document.querySelector("#id");
-console.log(id);
-const pw = document.querySelector("#pw");
-console.log(pw);
-const idResult = document.querySelector("#id-result");
-console.log(idResult);
-const pwResult = document.querySelector("#pw-result");
-console.log(pwResult);
+document.addEventListener('DOMContentLoaded', () => {
+  const usernameInput = document.getElementById('username');
+  const passwordInput = document.getElementById('password');
+  const usernameBorder = document.querySelector('#username ~ .login-input-border');
+  const passwordBorder = document.querySelector('#password ~ .login-input-border');
+  const usernameErrorMessage = document.getElementById('error-message');
+  const passwordErrorMessage = document.getElementById('error-message-pw');
 
-//id
-button.addEventListener("click", () =>{
-  console.log(id);
-  if(!id.value){ 
-    idResult.innerText = "필수 입력 항목입니다";
-    idResult.style.color = "lightpink";
-    idResult.style.transform = "translate(20px, -23px)";
-    return;
+  function validateInput(input, border, errorMessage, errorText) {
+    if (input.value.trim() === '') {
+      input.parentElement.classList.add('input-field--error');
+      input.parentElement.classList.remove('input-field--valid');
+      border.style.borderColor = 'rgb(var(--colour-semantic-negative, 224, 7, 81))';
+      errorMessage.textContent = errorText;
+      errorMessage.style.display = 'block';
+    } else {
+      input.parentElement.classList.remove('input-field--error');
+      input.parentElement.classList.add('input-field--valid');
+      border.style.borderColor = 'purple';
+      errorMessage.textContent = '';
+      errorMessage.style.display = 'none';
+    }
   }
-  idResult.style.color = "blue";
-});
-//pw
-button.addEventListener("click", () =>{
-  console.log(pw);
-  if(!pw.value){ 
-    pwResult.innerText = "필수 입력 항목입니다";
-    pwResult.style.color = "lightpink"; 
-    pwResult.style.transform = "translate(25px, -55px)";
-    return; 
-  }
-  pwResult.style.color = "blue";
+
+  usernameInput.addEventListener('blur', () => {
+    validateInput(usernameInput, usernameBorder, usernameErrorMessage, '아이디를 입력해주세요');
+  });
+
+  passwordInput.addEventListener('blur', () => {
+    validateInput(passwordInput, passwordBorder, passwordErrorMessage, '비밀번호를 입력해주세요');
+  });
+
+  document.querySelector('form').addEventListener('submit', function (event) {
+    let valid = true;
+
+    if (usernameInput.value.trim() === '') {
+      validateInput(usernameInput, usernameBorder, usernameErrorMessage, '아이디를 입력해주세요');
+      valid = false;
+    }
+
+    if (passwordInput.value.trim() === '') {
+      validateInput(passwordInput, passwordBorder, passwordErrorMessage, '비밀번호를 입력해주세요');
+      valid = false;
+    }
+
+    if (!valid) {
+      event.preventDefault();
+    }
+  });
 });
