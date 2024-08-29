@@ -58,9 +58,17 @@ main{
   border-radius: 10px;
 }
 
-/*휴대폰번호 인증 버튼 */
 .p-number-button{
   width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+
+/*휴대폰번호 인증 칸 */
+#p-number-ok-box{
+  width: 330px;
   height: 50px;
   border-radius: 10px;
   background-color: white;
@@ -73,6 +81,14 @@ main{
   border-radius: 10px;
   border: 1px solid #2BCF81;
   background-color: #2BCF81;
+}
+
+/*인증번호 입력 */
+.p-number-ok{
+  width: 330px;
+  height: 50px;
+  background-color:white;
+  border-radius: 10px;
 }
 
 /*링크*/
