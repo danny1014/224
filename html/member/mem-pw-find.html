@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,26 +11,29 @@
   <link rel="stylesheet" href="../../css/main/header.css">
   <link rel="stylesheet" href="../../css/main/footer.css">
 </head>
+
 <body>
-   <!-- 헤더 -->
-   <header>
+  <!-- 헤더 -->
+  <header>
     <section class="header-section">
       <div class="header-fixed">
         <ul class="header-list">
           <li>
             <!-- <a class="main-header-logo" href="../../html/main/main.html"> -->
-              <!-- 메인 로고 -->
-              <div id="header-img-0"><a href="../../html/main/main.html"><img src="../../images/logo-224-1.png" alt="로고"></div>
-              <div id="header-img-1"><img src="../../images/logo-224-0.png" alt="로고"></a></div>
+            <!-- 메인 로고 -->
+            <div id="header-img-0"><a href="../../html/main/main.html"><img src="../../images/logo-224-1.png" alt="로고">
+            </div>
+            <div id="header-img-1"><img src="../../images/logo-224-0.png" alt="로고"></a></div>
             </a>
           </li>
           <li>
             <!-- 메인 검색창 -->
             <a href="../../html/main/main-search.html">
-            <div class="header-search">
-              <div id="header-search-frame"><img src="../../images/main-search.png"></div>
-              <!-- <input id="search" type="text" placeholder="검색하세요"> -->
-            </div></a>
+              <div class="header-search">
+                <div id="header-search-frame"><img src="../../images/main-search.png"></div>
+                <!-- <input id="search" type="text" placeholder="검색하세요"> -->
+              </div>
+            </a>
           </li>
           <li class="main-login-btn">
             <!-- 로그인 및 회원가입 버튼 -->
@@ -128,22 +132,29 @@
       <form>
         <div class="container">
           <div class="name">이름
-          <input type="text" id="name"></div>
-          <div class="e-mail">이메일
-          <input type="text" id="e-mail" placeholder="&nbsp;&nbsp;email@gogle.com"></div>
-          <div class="pw-info">
-            <div class="pw-info-cate">휴대폰</div>
-            <input type="text" id="pw-number">
-            <button class="numberok"> 인증번호 받기</button>
+            <input type="text" id="name">
           </div>
-          <button type="button" class="pw-ok" onclick="openModal()"> 확인</button>
-        </div>
-        <div id="mem-Modal" class="mem-modal">
-          <div class="mem-modal-content">
-            <span class="mem-close" onclick="closeDeleteModal()">&times;</span>
-            <h2>이메일을 전송되었습니다</h2>
-            <p>이메일을 확인해주세요.</p>
-            <button class="mem-cancel-btn" onclick="closeDeleteModal()">확인</button>
+          <div class="e-mail">이메일
+            <input type="text" id="e-mail" placeholder="&nbsp;&nbsp;email@gogle.com">
+          </div>
+          <div class="pw-info">
+            <div class="pw-info-cate">휴대폰
+              <input type="text" id="pw-number">
+              <button class="numberok"> 인증번호 받기</button>
+            </div>
+          </div>
+            <div class="pw-p-number-ok">
+              <input type="text" id="pw-p-number-ok-box" placeholder="&nbsp;&nbsp;인증번호를 입력하세요">
+            </div>
+            <button type="button" class="pw-ok" onclick="openModal()"> 확인</button>
+          
+          <div id="mem-Modal" class="mem-modal">
+            <div class="mem-modal-content">
+              <span class="mem-close" onclick="closeDeleteModal()">&times;</span>
+              <h2>이메일을 전송되었습니다</h2>
+              <p>이메일을 확인해주세요.</p>
+              <button class="mem-cancel-btn" onclick="closeDeleteModal()">확인</button>
+            </div>
           </div>
         </div>
       </form>
@@ -156,4 +167,5 @@
   </footer>
   <script src="../../js/modal/mem-modal.js"></script>
 </body>
+
 </html>
