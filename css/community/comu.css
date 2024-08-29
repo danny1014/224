@@ -70,11 +70,11 @@ input, div, form, textarea, pre, blockquote {
 ul {
   display: block;
   list-style-type: disc;
-  margin-block-start: 1em;
+  /* margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  padding-inline-start: 10px;
+  padding-inline-start: 10px; */
   unicode-bidi: isolate;
   list-style-type: none;
 }
