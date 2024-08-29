@@ -19,28 +19,33 @@
       <div class="header-fixed">
         <ul class="header-list">
           <li>
-            <!-- 메인 로고 -->
-            <div id="header-img-0"><a href="#"><img src="../../images/logo-224-1.png" alt="로고"></a></div>
-            <div id="header-img-1"><a href="#"><img src="../../images/logo-224-0.png" alt="로고"></a></div>
+            <!-- <a class="main-header-logo" href="../../html/main/main.html"> -->
+              <!-- 메인 로고 -->
+              <div id="header-img-0"><a href="../../html/main/main.html"><img src="../../images/logo-224-1.png" alt="로고"></div>
+              <div id="header-img-1"><img src="../../images/logo-224-0.png" alt="로고"></a></div>
+            </a>
           </li>
           <li>
             <!-- 메인 검색창 -->
+            <a href="../../html/main/main-search.html">
             <div class="header-search">
-              <div id="header-search-frame"><a href="#"><img src="../../images/main-search.png"></a></div>
+              <div id="header-search-frame"><img src="../../images/main-search.png"></div>
               <!-- <input id="search" type="text" placeholder="검색하세요"> -->
-            </div>
+            </div></a>
           </li>
-          <li>
+          <li class="main-login-btn">
             <!-- 로그인 및 회원가입 버튼 -->
             <div id="header-weather"><a href="#"><img src="../../images/weather.jpg"></a></div>
-            <div id="header-login-join-btn">
-              <h5>로그인 및 회원가입</h5>
-            </div>
+            <a href="../../html/member/mem-login.html">
+              <div id="header-login-join-btn">
+                <h5>로그인 및 회원가입</h5>
+              </div>
+            </a>
           </li>
         </ul>
       </div>
     </section>
-    <section>
+    <section class="main-dropdown">
       <!-- 메인 메뉴 드롭다운-->
       <div id="dropdown-container">
         <div class="dropdown">
@@ -52,9 +57,8 @@
               <li>
                 <div class="dropdown-line"></div>
               </li>
-              <li><a href="#">2호선폭폭</a></li>
-              <li><a href="#">2호선 노선도</a></li>
-              <li><a href="#">2호선 배차시간표</a></li>
+              <li><a href="../../html/subway/subway-route.html">2호선 노선도</a></li>
+              <li><a href="../../html/subway/subway-schedule.html">2호선 배차시간표</a></li>
             </ul>
           </div>
         </div>
@@ -67,13 +71,13 @@
               <li>
                 <div class="dropdown-line"></div>
               </li>
-              <li><a href="#">핫플콕콕</a></li>
-              <li><a href="#">강남역</a></li>
-              <li><a href="#">잠실역</a></li>
-              <li><a href="#">성수역</a></li>
-              <li><a href="#">문래역</a></li>
-              <li><a href="#">홍대입구역</a></li>
-              <li><a href="#">을지로입구역</a></li>
+              <li><a href="../hotplace/hotplace.html">핫플콕콕</a></li>
+              <li><a href="../hotplace/hotplace-gangnam.html">강남역</a></li>
+              <li><a href="../hotplace/hotplace-jamsil.html">잠실역</a></li>
+              <li><a href="../hotplace/hotplace-seongsu.html">성수역</a></li>
+              <li><a href="../hotplace/hotplace-moonrae.html">문래역</a></li>
+              <li><a href="../hotplace/hotplace-hongdae.html">홍대입구역</a></li>
+              <li><a href="../hotplace/hotplace-euljiro.html">을지로입구역</a></li>
             </ul>
           </div>
         </div>
@@ -86,8 +90,8 @@
               <li>
                 <div class="dropdown-line"></div>
               </li>
-              <li><a href="#">편의공공</a></li>
-              <li><a href="#">물품보관함</a></li>
+              <li><a href="../../html/convenience/conv-main.html">편의공공</a></li>
+              <li><a href="../../html/convenience/conv-storage.html">물품보관함</a></li>
             </ul>
           </div>
         </div>
@@ -100,7 +104,7 @@
               <li>
                 <div class="dropdown-line"></div>
               </li>
-              <li><a href="#">커뮤톡톡</a></li>
+              <li><a href="../../html/community/comu-main-guest.html">커뮤톡톡</a></li>
             </ul>
           </div>
         </div>
@@ -113,7 +117,7 @@
               <li>
                 <div class="dropdown-line"></div>
               </li>
-              <li><a href="#">공지쏙쏙</a></li>
+              <li><a href="../../html/notice/notice-nmain.html">공지쏙쏙</a></li>
             </ul>
           </div>
         </div>
