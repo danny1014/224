@@ -72,6 +72,10 @@ body {
 }
 
 /* 로그인 및 회원가입 버튼 */
+.main-login-btn a {
+  text-decoration: none;
+}
+
 #header-login-join-btn {
   background-color: #2BCF81;
   width: 140px;
@@ -91,6 +95,10 @@ body {
 
 
 /* 드롭다운 메뉴 */
+.main-dropdown {
+  background-color: white;
+  z-index: 500;
+}
 
 #dropdown-container {
   display: flex;
@@ -168,5 +176,5 @@ body {
 .dropdown:hover .dropdown-content{
   display: block;
   align-items: center;
-  z-index: 1000;
+  z-index: 500;
 } 
