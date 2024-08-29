@@ -1,7 +1,7 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
-}
+} */
 
 main {
   display: flex;
@@ -140,6 +140,7 @@ main {
   width: 580px;
   height: 40px;
   margin: 0;
+  padding: 0;
   display: flex;
   align-content: center;
 }
