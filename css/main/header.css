@@ -95,6 +95,10 @@ body {
 
 
 /* 드롭다운 메뉴 */
+.main-dropdown {
+  background-color: white;
+  z-index: 500;
+}
 
 #dropdown-container {
   display: flex;
