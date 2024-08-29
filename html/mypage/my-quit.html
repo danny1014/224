@@ -8,9 +8,123 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <link rel="stylesheet" href="../../css/mypage/my-quit.css">
   <link rel="stylesheet" href="../../css/modal/my-modal.css">
+  <link rel="stylesheet" href="../../css/main/header.css">
+  <link rel="stylesheet" href="../../css/main/footer.css">
 </head>
 
 <body>
+  <!-- 헤더 -->
+  <header>
+    <section class="header-section">
+      <div class="header-fixed">
+        <ul class="header-list">
+          <li>
+            <!-- 메인 로고 -->
+            <div id="header-img-0"><a href="#"><img src="../../images/logo-224-1.png" alt="로고"></a></div>
+            <div id="header-img-1"><a href="#"><img src="../../images/logo-224-0.png" alt="로고"></a></div>
+          </li>
+          <li>
+            <!-- 메인 검색창 -->
+            <div class="header-search">
+              <div id="header-search-frame"><a href="#"><img src="../../images/main-search.png"></a></div>
+              <!-- <input id="search" type="text" placeholder="검색하세요"> -->
+            </div>
+          </li>
+          <li>
+            <!-- 로그인 및 회원가입 버튼 -->
+            <div id="header-weather"><a href="#"><img src="../../images/weather.jpg"></a></div>
+            <div id="header-login-join-btn">
+              <h5>로그인 및 회원가입</h5>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <!-- 메인 메뉴 드롭다운-->
+      <div id="dropdown-container">
+        <div class="dropdown">
+          <!-- 2호선폭폭 -->
+          <div class="dropdown-menu"><img src="../../images/line-icon.png"></div>
+          <div class="dropdown-menu-txt">2호선폭폭</div>
+          <div class="dropdown-content">
+            <ul class="dropdown-subway">
+              <li>
+                <div class="dropdown-line"></div>
+              </li>
+              <li><a href="#">2호선폭폭</a></li>
+              <li><a href="#">2호선 노선도</a></li>
+              <li><a href="#">2호선 배차시간표</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- 핫플콕콕 -->
+        <div class="dropdown">
+          <div class="dropdown-menu"><img src="../../images/hotplace-icon.png"></div>
+          <div class="dropdown-menu-txt">핫플콕콕</div>
+          <div class="dropdown-content">
+            <ul class="dropdown-hot">
+              <li>
+                <div class="dropdown-line"></div>
+              </li>
+              <li><a href="#">핫플콕콕</a></li>
+              <li><a href="#">강남역</a></li>
+              <li><a href="#">잠실역</a></li>
+              <li><a href="#">성수역</a></li>
+              <li><a href="#">문래역</a></li>
+              <li><a href="#">홍대입구역</a></li>
+              <li><a href="#">을지로입구역</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- 편의공공 -->
+        <div class="dropdown">
+          <div class="dropdown-menu"><img src="../../images/convenience-icon.png"></div>
+          <div class="dropdown-menu-txt">편의공공</div>
+          <div class="dropdown-content">
+            <ul class="dropdown-conv">
+              <li>
+                <div class="dropdown-line"></div>
+              </li>
+              <li><a href="#">편의공공</a></li>
+              <li><a href="#">물품보관함</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- 커뮤톡톡 -->
+        <div class="dropdown">
+          <div class="dropdown-menu"><img src="../../images/community-icon.png"></div>
+          <div class="dropdown-menu-txt">커뮤톡톡</div>
+          <div class="dropdown-content">
+            <ul class="dropdown-comu">
+              <li>
+                <div class="dropdown-line"></div>
+              </li>
+              <li><a href="#">커뮤톡톡</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- 공지쏙쏙 -->
+        <div class="dropdown">
+          <div class="dropdown-menu"><img src="../../images/notice-icon.png"></div>
+          <div class="dropdown-menu-txt">공지쏙쏙</div>
+          <div class="dropdown-content">
+            <ul class="dropdown-notice">
+              <li>
+                <div class="dropdown-line"></div>
+              </li>
+              <li><a href="#">공지쏙쏙</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+
+
+
+
   <main>
     <!-- 목록 -->
     <div class="my-quitBox">
@@ -22,62 +136,78 @@
         <div class="my-category">
           <div class="my-category-menu">메뉴</div>
           <div class="my-line"></div>
-          <a href="../mypage/my-passcheck.html"><div class="my-category-menu">개인정보수정</div></a>
-          <a href="../mypage/my-comunity.html"><div class="my-category-menu">내가 작성한 글</div></a>
-          <a href="../mypage/my-pick.html"><div class="my-category-menu">찜목록</div></a>
-          <a href="../mypage/my-quit.html"><div class="my-category-menu">회원탈퇴</div></a>
+          <a href="../mypage/my-passcheck.html">
+            <div class="my-category-menu">개인정보수정</div>
+          </a>
+          <a href="../mypage/my-comunity.html">
+            <div class="my-category-menu">내가 작성한 글</div>
+          </a>
+          <a href="../mypage/my-pick.html">
+            <div class="my-category-menu">찜목록</div>
+          </a>
+          <a href="../mypage/my-quit.html">
+            <div class="my-category-menu">회원탈퇴</div>
+          </a>
         </div>
       </div>
 
-    <!-- 프로필 -->
-    <div class="my-rightbox">
-      <form action="" method="">
-      <div class="my-quit">
-        <div class="my-quit-title">회원탈퇴안내</div>
-        <div class="my-line"></div>
-        <div class="my-quit-center">
-          <div class="my-quit-category">
-            <div class="my-quit-subtitle">회원탈퇴안내</div>
-            <div class="my-quit-message">고객님께서 회원 탈퇴를 원하신다니 저희 서비스가 많이 부족하고 미흡했나 봅니다. 
-              불편하셨던 점이나 불만사항을 알려주시면 적극 반영해서 고객님의 불편함을 해결해 드리도록 노력하겠습니다.
-            <br>
-            <br>
-            아울러 회원 탈퇴시의 아래 사항을 숙지하시기 바랍니다.
-            <br>
-            <br>
-            1. 게시판형 서비스에 등록한 게시물은 탈퇴 후에도 남아 있습니다. 글이 남아 있는 것을 원치 않는다면 삭제 후 탈퇴하세요.
-            <br>
-            <br>
-            2. 회원 탈퇴 후 같은 이메일로 재가입이 불가능 합니다.
-            <br>
-            <br>
-            3. 회원 탈퇴 시 신중히 진행하세요.
-            <br>
-            <br>
-            <br>
-            아래 입력창에 "동의합니다"라고 입력하세요.
+      <!-- 프로필 -->
+      <div class="my-rightbox">
+        <form action="" method="">
+          <div class="my-quit">
+            <div class="my-quit-title">회원탈퇴안내</div>
+            <div class="my-line"></div>
+            <div class="my-quit-center">
+              <div class="my-quit-category">
+                <div class="my-quit-subtitle">회원탈퇴안내</div>
+                <div class="my-quit-message">고객님께서 회원 탈퇴를 원하신다니 저희 서비스가 많이 부족하고 미흡했나 봅니다.
+                  불편하셨던 점이나 불만사항을 알려주시면 적극 반영해서 고객님의 불편함을 해결해 드리도록 노력하겠습니다.
+                  <br>
+                  <br>
+                  아울러 회원 탈퇴시의 아래 사항을 숙지하시기 바랍니다.
+                  <br>
+                  <br>
+                  1. 게시판형 서비스에 등록한 게시물은 탈퇴 후에도 남아 있습니다. 글이 남아 있는 것을 원치 않는다면 삭제 후 탈퇴하세요.
+                  <br>
+                  <br>
+                  2. 회원 탈퇴 후 같은 이메일로 재가입이 불가능 합니다.
+                  <br>
+                  <br>
+                  3. 회원 탈퇴 시 신중히 진행하세요.
+                  <br>
+                  <br>
+                  <br>
+                  아래 입력창에 "동의합니다"라고 입력하세요.
+                </div>
+              </div>
+              
+            </div>
+            <input type="text" id="userAgree" class="AgreeMsg" placeholder=" 동의합니다">
+            <p class="my-quit-result"></p>
+            <button type="button" class="my-button-quit" onclick="openDeleteModal()">탈퇴</button>
+            <button type="button" class="my-button-back" onclick="goToProfile()">취소</button>
           </div>
+          <!-- 모달 HTML -->
+          <div id="my-Modal" class="my-modal">
+            <div class="my-modal-content">
+              <span class="my-close" onclick="closeDeleteModal()">&times;</span>
+              <h2>정말 탈퇴하시겠습니까??</h2>
+              <p>확인 버튼을 클릭하면 회원탈퇴가 완료됩니다.</p>
+              <button type="button" onclick="goToPage()">확인</button>
+              <button class="my-cancel-btn" onclick="closeDeleteModal()">취소</button>
+            </div>
           </div>
-        </div>
-          <input type="text" id="userAgree" class="AgreeMsg" placeholder=" 동의합니다">
-          <button type="button" class="my-button-quit" onclick="openDeleteModal()">탈퇴</button>
-          <button type="button" class="my-button-back">취소</button>
+        </form>
       </div>
-         <!-- 모달 HTML -->
-         <div id="my-Modal" class="my-modal">
-          <div class="my-modal-content">
-            <span class="my-close" onclick="closeDeleteModal()">&times;</span>
-            <h2>정말 탈퇴하시겠씁니까??</h2>
-            <p>확인 버튼을 클릭하면 회원탈퇴가 완료됩니다.</p>
-            <button type="button" onclick="goToPage()">확인</button>
-            <button class="my-cancel-btn" onclick="closeDeleteModal()">취소</button>
-          </div>
-        </div>
-      </form>
-    </div>
   </main>
 </body>
+<footer>
+  <h6>(06236)서울특별시 강남구 테헤란로 146, 신한은행 건물 (3층) | 대표이사 강수정 김규열 김민채 신승민 이기철 정시우 | 회사업자등록번호104-81-4522690 |<br>
+    통신판매업신고번호 2017-서울용산-066 | 사업자정보확인호스팅사업자 NT넥스트레벨 대표이메일 nextlevel_224@next.com<br>
+    © NEXT LEVEL. All Rights Reserved</h6>
+</footer>
 <script src="../../js/modal/my-modal.js"></script>
+<script src="../../js/mypage/my-quit.js"></script>
 
 
 </html>
