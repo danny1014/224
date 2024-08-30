@@ -127,7 +127,13 @@ body {
 .dropdown-menu-txt {
   font-size: 18px;
   margin-top: 8px;
-  margin-right: 60px;
+  margin-right: 60px;  
+  text-decoration: none;
+}
+
+.dropdown-menu-txt a {
+  text-decoration: none;
+  color: black;
 }
 
 .dropdown-content{
