@@ -94,7 +94,7 @@ main {
 .my-update {
   background-color: white;
   max-width: 650px;
-  height: 600px;
+  height: auto;
   border-radius: 15px;
   padding: 20px;
   display: flex;
