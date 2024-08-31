@@ -25,7 +25,7 @@ main{
   align-items: center;
   margin-top: 10px;
 }
-/*필수입력사항*/
+/*필수입력사항 위치조정*/
 .join-p{
   display: flex;
   flex-direction: column;
@@ -38,6 +38,7 @@ main{
   width: 100%;
 }
 
+/* 전체 입력창 박스 */
 .join-info-box{
   display: flex;
   flex-direction: column;
@@ -51,19 +52,19 @@ main{
   align-items: center;
 }
 
-/*이메일 입력*/
+/*이메일*/
 .join-info{
   display: flex;
   gap: 20px;
 }
-
+/* 이메일 입력창 */
 #e-mail{
   display: flex;
   width: 500px;
   height: 40px;
   border-radius: 5px;
 }
-
+/* 중복확인 버튼 */
 .e-mailok{
   width: 100px;
   height: 40px;
@@ -252,17 +253,17 @@ main{
 }
 
 /*유효성*/
-.join-e-mail-ch{
+/* .join-e-mail-ch{
   margin-left: 150px;
   display: none;
-}
+} */
 
-.join-pw-ch{
+/* .join-pw-ch{
   margin-left: 150px;
   display: none;
-}
+} */
 
-.join-pw-ch-ok{
+/* .join-pw-ch-ok{
   margin-left: 150px;
   display: none;
-}
+} */

@@ -17,7 +17,7 @@ main{
   padding: 36px;
   font-size: 32px;
 }
-
+/* 전체 사이즈설정 */
 .container{
   display: flex;
   flex-direction: column;
@@ -62,12 +62,25 @@ main{
 
 /*전화번호*/
 .pw-info{
-  display: flex;
-  margin-right: -65px;
+  flex-direction: column; /* 수직 간격을 조정하기 위해 추가 */
+  gap: 20px; /* 항목 간의 간격을 조정 */
+  margin-right: -65px; /* 기존 마진 조정 */
+  /* margin-top: 20px;  */
 }
 
 .pw-info-cate{
   display: flex;
+  gap: 10px; /* 버튼과 입력창 간의 간격 조정 */
+}
+
+.pw-name{
+  display: flex;
+  margin-top: 16px;
+  margin-right: -5px;
+}
+
+#pw-number {
+  flex: 1; /* 버튼과 입력창의 폭 조정 */
 }
 
 #pw-number{
@@ -96,7 +109,7 @@ main{
   background-color: white;
 }
 
-/*확인버튼*/
+/*하단 확인버튼*/
 .pw-ok{
   width: 330px;
   height: 50px;

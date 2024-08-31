@@ -67,3 +67,51 @@ function pwCheckOk(){
 }
 
 pwboxOk.addEventListener("blur",pwCheckOk);
+
+// 전체 동의 시 모든 체크박스 체크
+$("#mem-check-all").on('click', (e) => {
+  const isChecked = e.target.checked;
+  $("#mem-term .mem-term-checkbox-label input:checkbox").each(function() {
+    $(this).prop("checked", isChecked);
+  });
+});
+
+// 필수 체크박스 중 하나라도 해제 시 전체 동의 체크박스 해제
+$("#mem-term").on('click', '#mem-check-e1, #mem-check-e2', function() {
+  const requiredCheckboxes = $("#mem-check-e1, #mem-check-e2");
+  $("#mem-check-all").prop("checked", requiredCheckboxes.length === requiredCheckboxes.filter(":checked").length);
+});
+
+
+// 체크박스 필수만 선택시 약관 동의될 수 있도록
+$("#mem-check-e").on("click", (e) => {
+  const requiredCheckboxes = $("#mem-check-e").slice(0, 2);
+  // $(".terms-checkbox1").slice(0, 3)는 클래스가 terms-checkbox1인 체크박스들 중 첫 세 개(즉, 필수 항목)를 선택
+  $("#mem-check-all").prop("checked", requiredCheckboxes.filter(":checked").length === 2);
+});
+
+// $(document).ready(function() {
+//   $("#mem-term").on("click", "button", function(e) {
+//       const requiredCheckboxes = $("#mem-check-e").slice(0, 2); // 필수 항목 선택
+//       if (requiredCheckboxes.filter(":checked").length < 2) {
+//           e.preventDefault(); // 폼 제출 막기
+//           alert("필수 항목을 확인하고 체크해주세요.");
+//       } else {
+//           e.preventDefault(); // 폼 제출 막기
+//           window.location.href = "../../"; // 경로 설정
+//       }
+
+// 버튼 클릭 시 필수 체크박스 확인
+$(document).ready(function() {
+  $("#mem-btn-next").on("click", function(e) {
+    const requiredCheckboxes = $("#mem-check-e1, #mem-check-e2");
+    if (requiredCheckboxes.filter(":checked").length < requiredCheckboxes.length) {
+      e.preventDefault(); // 폼 제출 막기
+      alert("필수 항목을 확인하고 체크해주세요.");
+    } else {
+      e.preventDefault(); // 폼 제출 막기
+      openModal(); // 모달 열기
+      // window.location.href = "../../"; // 페이지 이동 (원하는 동작에 맞게 조정)
+    }
+  });
+});
