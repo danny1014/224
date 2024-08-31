@@ -24,3 +24,17 @@ function updatePWCheck() {
 newPW.addEventListener("blur", updatePWCheck);
 
 newPWC.addEventListener("blur", updatePWCheck);
+
+
+
+// 휴대전화인증버튼 클릭시 인증번호 입력창 출력
+const phoneBtn = document.querySelector(".my-update-value-check2")
+console.log(phoneBtn);
+const checkbox = document.querySelector(".my-update-menu-check")
+
+function phonecheckbox() {
+  console.log("확인");
+  checkbox.style.display = "block";
+};
+
+phoneBtn.addEventListener("click", phonecheckbox);
