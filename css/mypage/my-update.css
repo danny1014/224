@@ -94,7 +94,7 @@ main {
 .my-update {
   background-color: white;
   max-width: 650px;
-  height: 600px;
+  height: auto;
   border-radius: 15px;
   padding: 20px;
   display: flex;
@@ -132,6 +132,11 @@ main {
   gap: 15px;
 }
 
+.my-update-menu-check{
+  display: none;
+}
+
+
 .my-update-value {
   background-color: white;
   width: 100px;
@@ -147,6 +152,20 @@ main {
 }
 
 .my-update-value-check {
+  background-color: white;
+  width: 110px;
+  height: 27px;
+  margin: 15px 0;
+}
+
+.my-update-value-check2 {
+  background-color: white;
+  width: 110px;
+  height: 27px;
+  margin: 15px 0;
+}
+
+.my-update-value-Recheck {
   background-color: white;
   width: 110px;
   height: 27px;
