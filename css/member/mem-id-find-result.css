@@ -49,6 +49,7 @@
   padding: 10px 20px;
   margin-right: 10px;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .buttons button:nth-child(2) {

@@ -36,7 +36,7 @@ main{
   margin-bottom: -2px;
   margin-top: 20px;
 }
-
+/* 이름 입력칸 */
 #name{
   width: 330px;
   height: 50px;
@@ -50,14 +50,14 @@ main{
   margin-bottom: 9px;
   margin-top: 10px;
 }
-
+/* 번호 입력칸 */
 #p-number{
   width: 330px;
   height: 50px;
   background-color:white;
   border-radius: 10px;
 }
-
+/* 인증번호 받기 버튼 */
 .p-number-button{
   width: 100px;
   height: 50px;
@@ -66,7 +66,7 @@ main{
 }
 
 
-/*휴대폰번호 인증 칸 */
+/*휴대폰번호 인증 입력 칸 */
 #p-number-ok-box{
   width: 330px;
   height: 50px;

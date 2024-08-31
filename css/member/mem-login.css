@@ -40,7 +40,7 @@ main {
 
 #username, #password {
   width: 330px; /* 기존 100%에서 280px로 조정 */
-  height: 35px; /* 기존 50px에서 45px로 조정 */
+  height: 50px; /* 기존 50px에서 45px로 조정 */
   background-color: white;
   border-radius: 10px;
   border: 1px solid #ccc; /* 기본 테두리 색상 */
@@ -55,7 +55,7 @@ main {
 
 .login-bt {
   width: 330px; /* 너비 유지 */
-  height: 30px; /* 높이를 적절히 증가 */
+  height: 50px; /* 높이를 적절히 증가 */
   border-radius: 10px;
   border: 1px solid #2BCF81;
   background-color: #2BCF81;
