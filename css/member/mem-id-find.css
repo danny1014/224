@@ -12,9 +12,10 @@ main{
   margin: auto;
 }
 
+/* 아이디찾기 */
 .login-find h3{
   margin-left: 416px;
-  padding: 36px;
+  padding: 25px;
   font-size: 32px;
 }
 
@@ -27,7 +28,7 @@ main{
   margin: auto;
   border-radius: 10px;
   align-items: center;
-  gap: 11px;
+  gap: 15px;
 }
 /*이름*/
 .name{
@@ -37,7 +38,7 @@ main{
   margin-top: 20px;
 }
 /* 이름 입력칸 */
-#name{
+#username{
   width: 330px;
   height: 50px;
   background-color: white;
@@ -51,7 +52,7 @@ main{
   margin-top: 10px;
 }
 /* 번호 입력칸 */
-#p-number{
+#user-p-number{
   width: 330px;
   height: 50px;
   background-color:white;
@@ -74,14 +75,7 @@ main{
   background-color: white;
 }
 
-/*확인버튼*/
-.login-ok{
-  width: 330px;
-  height: 50px;
-  border-radius: 10px;
-  border: 1px solid #2BCF81;
-  background-color: #2BCF81;
-}
+
 
 /*인증번호 입력 */
 .p-number-ok{
@@ -89,6 +83,16 @@ main{
   height: 50px;
   background-color:white;
   border-radius: 10px;
+  margin-left: -6px;
+}
+
+/*확인버튼*/
+.login-ok{
+  width: 340px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #2BCF81;
+  background-color: #2BCF81;
 }
 
 /*링크*/
