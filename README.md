@@ -1,5 +1,3 @@
-![메인-로그인](https://github.com/user-attachments/assets/6d258db2-21ef-4123-b09a-204724cda02d)<br />
-
 # Projects
 
 ## 1. 2호선을 이용하는 사람들
